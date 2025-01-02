@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="00c8c22e-d4bf-1d44-a9c5-1f539c6d38f4">
- <Files>
-  <File path="p_col_veg.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

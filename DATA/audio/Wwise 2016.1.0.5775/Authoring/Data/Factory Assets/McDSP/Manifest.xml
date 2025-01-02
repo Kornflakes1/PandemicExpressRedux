@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<Manifest Name="McDSP FutzBox" Type="Presets">
-  <Dependencies>
-    <Plugin PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3"/>
-	<Plugin PluginName="McDSP ML1" CompanyID="256" PluginID="103" PluginType="3"/>
-  </Dependencies>
-</Manifest>

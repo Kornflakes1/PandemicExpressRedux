@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="bd6da42e-670d-f7e7-8ac6-895fe257908c">
- <Files>
-  <File path="c_npc.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

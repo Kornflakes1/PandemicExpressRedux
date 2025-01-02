@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="bbe4cf80-db74-53fd-f143-c280ea912400">
- <Files>
-  <File path="c_player.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

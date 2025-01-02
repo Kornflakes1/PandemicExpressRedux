@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<Manifest Name="Synth One" Type="Samples">
-  <Dependencies>
-    <Plugin PluginName="SynthOne" PluginType="2" CompanyID="0" PluginID="148"/>
-  </Dependencies>
-</Manifest>

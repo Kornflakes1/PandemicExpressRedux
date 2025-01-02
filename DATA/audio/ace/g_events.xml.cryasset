@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="c6eb40c3-cee8-e189-c224-650002b7a650">
- <Files>
-  <File path="g_events.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

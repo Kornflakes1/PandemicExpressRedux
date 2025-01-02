@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<Manifest Name="Auro Headphone" Type="Presets">
-  <Dependencies>
-    <Plugin PluginName="AuroHeadphone" PluginType="3" CompanyID="263" PluginID="1100"/>
-  </Dependencies>
-</Manifest>

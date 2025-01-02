@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="4f245e36-3047-59aa-91c0-e678a5032c1e">
- <Files>
-  <File path="w_grenade.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

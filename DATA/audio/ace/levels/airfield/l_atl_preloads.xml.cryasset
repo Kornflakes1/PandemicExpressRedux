@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="452d7643-6b74-d860-e6c2-efaa6ef6fcdc">
- <Files>
-  <File path="l_atl_preloads.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

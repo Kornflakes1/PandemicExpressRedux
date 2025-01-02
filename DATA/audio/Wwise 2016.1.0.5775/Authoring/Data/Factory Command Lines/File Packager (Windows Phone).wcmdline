@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CmdLine Description="Package Files (XboxOne)">"$(WwiseExePath)\tools\FilePackager.Console.exe" -generate -info "$(InfoFilePath)" -output "$(SoundBankPath)\$(WwiseProjectName).pck" -blocksize 1</CmdLine>

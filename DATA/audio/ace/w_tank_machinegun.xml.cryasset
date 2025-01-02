@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="b1ab0338-088b-adba-0c3a-fde9912913a0">
- <Files>
-  <File path="w_tank_machinegun.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

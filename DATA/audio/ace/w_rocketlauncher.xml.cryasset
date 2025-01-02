@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="b8b29884-18ce-4a31-aed5-a000b8d98856">
- <Files>
-  <File path="w_rocketlauncher.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

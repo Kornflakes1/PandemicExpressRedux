@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="713668a0-dbf6-e3e6-7235-0340d974e1b2">
- <Files>
-  <File path="w_rifle.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

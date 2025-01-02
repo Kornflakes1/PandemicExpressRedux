@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="6d0d3b4b-abe1-ce77-4bd3-128c0f237624">
- <Files>
-  <File path="l_audio_tutorial.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="074270b4-fc59-c26f-05dd-7764c95446b6">
- <Files>
-  <File path="w_tank_cannon.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

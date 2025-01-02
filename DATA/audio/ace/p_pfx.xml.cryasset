@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="2c974bb5-073d-f4a1-3265-574179f878bf">
- <Files>
-  <File path="p_pfx.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

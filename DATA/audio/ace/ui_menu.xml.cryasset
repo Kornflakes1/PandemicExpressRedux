@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="ffc3a628-8a0d-aafa-3d03-53df200959a4">
- <Files>
-  <File path="ui_menu.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

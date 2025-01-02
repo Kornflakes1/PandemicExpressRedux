@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="fa0fcf10-091b-a337-22c3-9ccc4940cfd3">
- <Files>
-  <File path="l_global.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

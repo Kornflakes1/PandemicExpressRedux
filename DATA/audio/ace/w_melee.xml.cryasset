@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="fedffb36-32b4-e3ba-ac5e-728ae7c1c928">
- <Files>
-  <File path="w_melee.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>

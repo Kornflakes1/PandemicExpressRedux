@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="6615132f-3412-abcb-90c5-07f2a6d0b3a9">
- <Files>
-  <File path="g_atl_rtpcs.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ATLConfig</Detail>
- </Details>
-</AssetMetadata>
