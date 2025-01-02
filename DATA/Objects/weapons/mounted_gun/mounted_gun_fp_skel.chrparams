@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Params>
-	<AnimationList>
-		<Animation name="#filepath" path="Animations\weapons\hmg"/>
-		<Animation name="$TracksDatabase" path="animations\weapons\hmg\hmg.dba"/>
-		<Animation name="*" path="*.caf"/>
-	</AnimationList>
-</Params>

@@ -1,6 +1,0 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="HUD3D.ui" TexType="Dynamic 2D-Map"/>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

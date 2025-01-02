@@ -1,8 +1,0 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="20400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emittance="1,1,1,42" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./textures/battery_a.tif"/>
-  <Texture Map="Bumpmap" File="./textures/battery_ddna.tif"/>
-  <Texture Map="Emittance" File="./textures/battery_e.tif"/>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

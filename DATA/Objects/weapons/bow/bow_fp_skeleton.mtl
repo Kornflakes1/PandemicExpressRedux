@@ -1,9 +1,0 @@
-<Material MtlFlags="524544" vertModifType="0">
- <SubMaterials>
-  <Material Name="No_Draw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.80000001,0.80000001,0.80000001" Specular="1,1,1" Opacity="0.2" Shininess="50" vertModifType="0" LayerAct="1">
-   <Textures />
-   <PublicParams />
-  </Material>
- </SubMaterials>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

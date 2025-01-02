@@ -1,8 +1,0 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="82000" StringGenMask="%DETAIL_BUMP_MAPPING%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.0036972393,0.0036972393,0.0036972393" Emissive="0,0,0" Shininess="110" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="objects/weapons/us/m9/textures/m9.dds"/>
-  <Texture Map="Specular" File="objects/weapons/us/m9/textures/m9_spec.dds"/>
-  <Texture Map="Detail" File="textures/detail/car_scratchy_ddn.dds"/>
- </Textures>
- <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="20" DetailBlendAmount="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="2.5" GlossFromDiffuseBrightness="0" DetailBumpTillingV="20" IndirectColor="0.25,0.25,0.25"/>
-</Material>

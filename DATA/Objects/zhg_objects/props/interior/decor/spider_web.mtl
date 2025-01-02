@@ -1,7 +1,0 @@
-<Material MtlFlags="524320" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.006512091,0.006512091,0.006512091" Specular="0.0043914425,0.0043914425,0.0043914425" Opacity="0.37" AlphaTest="0.029999999" vertModifType="1" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./textures/spider_web_diff.tif"/>
- </Textures>
- <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1"/>
- <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="0" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0" TransmittanceColor="1,1,1" CapOpacityFalloff="0" BackDiffuseMultiplier="0.30000001" BlendTerrainColDist="0.0099999998"/>
-</Material>

@@ -1,8 +1,0 @@
-<Material MtlFlags="524544" vertModifType="0">
- <SubMaterials>
-  <Material Name="human_bones" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.78823501,0.79607898,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
-   <Textures />
-  </Material>
- </SubMaterials>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

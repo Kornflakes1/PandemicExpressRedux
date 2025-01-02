@@ -1,8 +1,0 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="100000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.0030352699,0.0030352699,0.0030352699" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="HUD2D.ui" TexType="Dynamic 2D-Map">
-   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1" TileV="0.1"/>
-  </Texture>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

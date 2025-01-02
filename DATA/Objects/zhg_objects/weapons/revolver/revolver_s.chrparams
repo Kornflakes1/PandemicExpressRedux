@@ -1,9 +1,0 @@
-<Params>
- <AnimationList>
-  <Animation name="$AnimEventDatabase" path="Animations/weapons/hg_shotgun/hg_shotgun.animevents"/>
-  <Animation name="#filepath" path="Animations/weapons/revolver"/>
-  <Animation name="*" path="*/*.caf"/>
-  <Animation name="*" path="*/*.bspace"/>
-  <Animation name="*" path="*/*.comb"/>
- </AnimationList>
-</Params>

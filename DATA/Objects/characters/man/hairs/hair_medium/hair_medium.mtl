@@ -1,7 +1,0 @@
-<Material MtlFlags="524322" Shader="Illum" GenMask="30000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.095307469,0.095307469,0.095307469" Specular="0,0,0" Emittance="0.07618539,0.07618539,0.07618539,0" Opacity="0.93000001" Shininess="20" CloakAmount="0" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./textures/hair_medium_diff.dds"/>
-  <Texture Map="Specular" File="./textures/hair_medium_spec.dds"/>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

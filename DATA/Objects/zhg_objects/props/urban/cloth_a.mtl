@@ -1,9 +1,0 @@
-<Material MtlFlags="524290" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.58407855,0.58407855,0.58407855" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="10" AlphaTest="0.5" vertModifType="2" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="Textures/zhg_textures/Cloth/cloth_a_diff.tif"/>
- </Textures>
- <VertexDeform Type="2" DividerX="0.2" DividerY="0.0099999998" NoiseScale="1,1,1">
-  <WaveX Type="1" Amp="0.0099999998" Level="0" Phase="2" Freq="0.2"/>
- </VertexDeform>
- <PublicParams bendDetailLeafAmplitude="0.39700001" bendDetailFrequency="1" bendDetailBranchAmplitude="0.85000002" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.79910284,0.83077002,0.84687334" CapOpacityFalloff="1" BackDiffuseMultiplier="1.806" BlendTerrainColDist="0.5"/>
-</Material>

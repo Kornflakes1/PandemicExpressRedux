@@ -1,6 +1,0 @@
-<Material MtlFlags="526368" Shader="Glass" GenMask="40010000000" StringGenMask="%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.066625945,0.066625945,0.066625945" Opacity="1" Shininess="240" CloakAmount="0" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Specular" File="./textures/glass_spec.dds"/>
- </Textures>
- <PublicParams BumpMapTile="1" TintColor="1,1,1" CloudinessReducesGloss="0.5" TintCloudiness="0" BackLightScale="0.55000001" BumpScale="0"/>
-</Material>

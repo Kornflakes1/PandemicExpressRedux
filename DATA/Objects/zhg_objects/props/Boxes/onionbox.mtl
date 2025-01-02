@@ -1,8 +1,0 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="1800004000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.4793202,0.4793202,0.4793202" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./Textures/OnionBox_diff.dds"/>
-  <Texture Map="Bumpmap" File="./Textures/OnionBox_ddna.tif"/>
-  <Texture Map="Specular" File="./Textures/OnionBox_Spec.dds"/>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

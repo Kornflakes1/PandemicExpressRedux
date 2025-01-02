@@ -1,6 +1,0 @@
-<Material MtlFlags="524322" Shader="Illum" GenMask="100000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0.064803272,0.10461649" Specular="0,0.064803272,0.10461649" Emittance="0.010960096,0.10461649,0.15896086,10" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./safe_zone_diff.dds"/>
- </Textures>
- <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-</Material>

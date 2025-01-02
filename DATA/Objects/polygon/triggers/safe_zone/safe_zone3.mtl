@@ -1,6 +1,0 @@
-<Material MtlFlags="524322" Shader="WallGradient" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.46778381,0.095307469,0.030713448" Specular="0.45641103,0.1620294,0.034339812" Emittance="0.49693301,0.046665091,0.023153368,23" Opacity="0.30000001" CloakAmount="0" vertModifType="0" LayerAct="1">
- <Textures>
-  <Texture Map="Diffuse" File="./safe_zone_diff.dds"/>
- </Textures>
- <PublicParams HighOpacityHeight="10" LowOpacityHeight="0" EmittanceMapGamma="1" SSSIndex="0" HighOpacityLevel="1.5" OutlineMultiplier="2" LowOpacityLevel="2"/>
-</Material>

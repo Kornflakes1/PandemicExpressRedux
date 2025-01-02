@@ -1,9 +1,0 @@
-<Params>
- <AnimationList>
-  <Animation name="$AnimEventDatabase" path="Animations/weapons/bow/bow_animevents.animevents"/>
-  <Animation name="$TracksDatabase" path="Animations/weapons/bow/*.dba"/>
-  <Animation name="$TracksDatabase" path="Animations/weapons/bow/bow.dba"/>
-  <Animation name="#filepath" path="Animations/weapons/bow"/>
-  <Animation name="*" path="*/*.caf"/>
- </AnimationList>
-</Params>

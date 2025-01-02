@@ -1,9 +1,0 @@
-<Params>
- <AnimationList>
-  <Animation name="$AnimEventDatabase" path="Animations/weapons/objects\props/ropeladder.animevents"/>
-  <Animation name="#filepath" path="Animations/objects/objects\props/ropeladder"/>
-  <Animation name="*" path="*/*.caf"/>
-  <Animation name="*" path="*/*.bspace"/>
-  <Animation name="*" path="*/*.comb"/>
- </AnimationList>
-</Params>
