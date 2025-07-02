@@ -1,0 +1,20 @@
+<ATLConfig atl_name="ZombieSoundsNew" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Bomber_Dash">
+   <WwiseEvent wwise_name="Play_BomberDASH"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Mimic_Shoot_add" atl_radius="5" atl_occlusion_fadeout_distance="5" atl_match_radius_attenuation="0">
+   <WwiseEvent wwise_name="Play_MimicGUN"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="z_SoundsNew" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="z_SoundsNew.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

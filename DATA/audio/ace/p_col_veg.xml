@@ -1,0 +1,18 @@
+<ATLConfig atl_name="p_col_veg" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_p_col_veg_mm_vegetation">
+   <WwiseEvent wwise_name="Play_p_col_veg_mm_vegetation"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_col_veg_mm_grass">
+   <WwiseEvent wwise_name="Play_p_col_veg_mm_grass"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_col_veg_mfx">
+   <SDLMixerEvent event_id="1109" sdl_name="p_col_veg_mfx.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-17" loop_count="1"/>
+   <FmodEvent fmod_name="p_col/p_col_vegetation"/>
+   <WwiseEvent wwise_name="Play_p_col_veg_mfx"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

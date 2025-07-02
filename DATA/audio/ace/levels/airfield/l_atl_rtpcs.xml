@@ -1,0 +1,10 @@
+<ATLConfig atl_name="l_atl_rtpcs" atl_version="2">
+ <AudioRTPCs>
+  <ATLRtpc atl_name="l_airfield_wind_intensity">
+   <WwiseRtpc wwise_name="l_airfield_wind_intensity"/>
+  </ATLRtpc>
+ </AudioRTPCs>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

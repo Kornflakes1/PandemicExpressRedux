@@ -1,0 +1,33 @@
+<ATLConfig atl_name="p_brk" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_p_brk_stone_shatter">
+   <WwiseEvent wwise_name="Play_p_brk_stone_shatter"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_metal_shatter">
+   <WwiseEvent wwise_name="Play_p_brk_metal_shatter"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_tree_falling">
+   <WwiseEvent wwise_name="Play_p_brk_tree_falling"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_cliff_break">
+   <WwiseEvent wwise_name="Play_p_brk_cliff_break"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_glass_shatter">
+   <WwiseEvent wwise_name="Play_p_brk_glass_shatter"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_ice_shatter">
+   <WwiseEvent wwise_name="Play_p_brk_ice_shatter"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_vehicle_window">
+   <WwiseEvent wwise_name="Play_p_brk_vehicle_window"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_wood_shatter">
+   <WwiseEvent wwise_name="Play_p_brk_wood_shatter"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_p_brk_body_shatter"/>
+  <ATLTrigger atl_name="Play_p_brk_flesh_shatter"/>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

@@ -1,0 +1,27 @@
+<ATLConfig atl_name="w_smg" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_smg_fire_loop_fp" path="w_smg_fire_1p">
+   <WwiseEvent wwise_name="Play_smg_fire_loop_fp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_smg_fire_loop_tail_fp" path="w_smg_fire_1p">
+   <WwiseEvent wwise_name="Play_smg_fire_loop_tail_fp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_smg_fire_single_fp" path="w_smg_fire_1p">
+   <WwiseEvent wwise_name="Play_smg_fire_single_fp"/>
+  </ATLTrigger>
+ </AudioTriggers>
+  <AudioTriggers>
+  <ATLTrigger atl_name="Play_smg_fire_loop_3p" path="w_smg_fire_3p">
+   <WwiseEvent wwise_name="Play_smg_fire_loop_3p"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_smg_fire_single_3p" path="w_smg_fire_3p">
+   <WwiseEvent wwise_name="Play_smg_fire_single_3p"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="w_smg_fire_1p"/>
+   <Folder name="w_smg_fire_3p"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

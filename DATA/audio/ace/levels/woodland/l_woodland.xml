@@ -1,0 +1,195 @@
+<ATLConfig atl_name="l_woodland" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_woodland_mus_trackview" path="l_woodland_mus">
+   <SDLMixerEvent event_id="1411" sdl_name="l_woodland_mus_trackview.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_mus/l_woodland_mus_trackview"/>
+   <WwiseEvent wwise_name="Play_l_woodland_mus_trackview"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_l_woodland_mus_trackview" path="l_woodland_mus">
+   <SDLMixerEvent event_id="1412" sdl_name="l_woodland_mus_trackview.ogg" event_type="stop" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_mus/l_woodland_mus_trackview" fmod_event_type="stop"/>
+   <WwiseEvent wwise_name="Stop_l_woodland_mus_trackview"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_mus_stinger_rifle_pickup" path="l_woodland_mus">
+   <FmodEvent fmod_name="l_woodland/l_woodland_mus/l_woodland_mus_stinger_rifle_pickup"/>
+   <WwiseEvent wwise_name="Play_l_woodland_mus_stinger_rifle_pickup"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_insects_pond" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1413" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_insects_pond"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_insects_pond"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_lake_calm" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1415" sdl_name="l_woodland_amb_lake_calm.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="5" volume="-35" loop_count="-1"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_lake_calm"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_river_calm" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1416" sdl_name="l_woodland_amb_river_calm.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="15" volume="-35" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_river_calm"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_river_calm"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_river_fast" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1417" sdl_name="l_woodland_amb_river_fast.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="10" volume="-35" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_river_busy"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_river_fast"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_waterfall_large" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1418" sdl_name="l_woodland_amb_waterfall_large.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="45" volume="-15" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_waterfall_large"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_waterfall_large"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_waterfall_small" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1419" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_waterfall_small"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_waterfall_small"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab4_waterfall_small" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1420" sdl_name="l_woodland_amb_waterfall_medium.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="35" volume="-18" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab4_waterfall_small"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab4_waterfall_small"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab5_waterfall_medium" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1421" sdl_name="l_woodland_amb_waterfall_large.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="40" volume="-18" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab5_waterfall_medium"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab5_waterfall_medium"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab6_waterfall_small" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1422" sdl_name="l_woodland_amb_waterfall_medium.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" volume="-23" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab6_waterfall_small"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab6_waterfall_small"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_cave" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1423" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_cave"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_cave"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_crash_site" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1424" sdl_name="l_woodland_amb_crashsite.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_crashsite"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_crash_site"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_forest" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1425" sdl_name="l_woodland_amb_forest.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_forest"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_forest"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab1_open_ground" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1426" sdl_name="l_woodland_amb_open_ground.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab1_open_ground"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab1_open_ground"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab2_forest" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1427" sdl_name="l_woodland_amb_forest.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab2_forest"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab2_forest"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab3_village" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1428" sdl_name="l_woodland_amb_village.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab3_village"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab3_village"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab4_forest" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1429" sdl_name="l_woodland_amb_village.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab4_forest"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab4_forest"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab5_lake" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1430" sdl_name="l_woodland_amb_lake.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab5_lake"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab5_lake"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab6_forest" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1431" sdl_name="l_woodland_amb_forest.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab6_forest"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab6_forest"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_amb_ab6_lake" path="l_woodland_amb">
+   <SDLMixerEvent event_id="1432" sdl_name="l_woodland_amb_lake.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="-1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_amb/l_woodland_amb_ab6_lake"/>
+   <WwiseEvent wwise_name="Play_l_woodland_amb_ab6_lake"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_bird_nighthawk" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1433" sdl_name="l_woodland_sfx_bird_nighthawk.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_nighthawk_scream"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_bird_nighthawk"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_wind_gust" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1434" sdl_name="l_woodland_sfx_wind_gust.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="-30" attenuation_dist_max="0" volume="-30" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_wind_gust"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_wind_gust"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_metal_creak" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1435" sdl_name="l_woodland_sfx_metal_creak.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_metal_creak"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_metal_creak"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_log_creak" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1436" sdl_name="l_woodland_sfx_vegetation_log_creak.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-27" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_log_creak"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_log_creak"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_vegetation_rustle" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1437" sdl_name="l_woodland_sfx_vegetation_rustle.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-26" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_vegetation_rustle"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_vegetation_rustle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_frog" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1438" sdl_name="l_global_boids_frog_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="15" volume="-25" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_frog_croak"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_frog"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_leaves_rustling_loop" path="l_woodland_sfx">
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_leaves_rustling_loop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_bird_chirping" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1439" sdl_name="l_woodland_sfx_bird_chirping.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_bird_chirping"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_bird_chirping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_bird_crow" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1440" sdl_name="l_global_sfx_crow.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-18" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_crow_caw"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_bird_crow"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_bird_woodpecker" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1441" sdl_name="l_global_sfx_woodpecker.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_woodpecker"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_bird_woodpecker"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_water_dripping" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1442" sdl_name="l_woodland_sfx_water_dripping.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="15" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_water_dripping"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_water_dripping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sfx_bird_owl" path="l_woodland_sfx">
+   <SDLMixerEvent event_id="1443" sdl_name="l_global_sfx_owl.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="35" volume="-22" loop_count="1"/>
+   <FmodEvent fmod_name="l_woodland/l_woodland_sfx/l_woodland_sfx_owl_call"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sfx_bird_owl"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_cin_toad_rockimpact_01" path="l_woodland_cin">
+   <SDLMixerEvent event_id="1444" sdl_name="l_woodland_cin_toad_rockimpact_01.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_woodland_cin_toad_rockimpact_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_cin_toad_rockimpact_02" path="l_woodland_cin">
+   <SDLMixerEvent event_id="1445" sdl_name="l_woodland_cin_toad_rockimpact_02.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_woodland_cin_toad_rockimpact_02"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sce_bird_fly_off" path="l_woodland_sce">
+   <SDLMixerEvent event_id="1446" sdl_name="l_woodland_sce_bird_fly_off.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-18" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sce_bird_fly_off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_woodland_sce_entering_ravine" path="l_woodland_sce">
+   <SDLMixerEvent event_id="1447" sdl_name="l_woodland_sfx_wind_gust.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-35" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_woodland_sce_entering_ravine"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="l_woodland_mus"/>
+   <Folder name="l_woodland_amb"/>
+   <Folder name="l_woodland_sfx"/>
+   <Folder name="l_woodland_cin"/>
+   <Folder name="l_woodland_sce"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

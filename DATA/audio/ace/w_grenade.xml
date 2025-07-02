@@ -1,0 +1,32 @@
+<ATLConfig atl_name="w_grenade" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_w_grenade_select_3p" path="w_grenade_handling_3p">
+   <SDLMixerEvent event_id="1518" sdl_name="w_grenade_foley_select.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_w_grenade_foley_select_3p"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_w_grenade_unlock_3p" path="w_grenade_handling_3p">
+   <SDLMixerEvent event_id="1519" sdl_name="w_grenade_foley_unlock.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_w_grenade_foley_unlock_3p"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_w_grenade_throw_fp" path="w_grenade_handling_3p">
+   <WwiseEvent wwise_name="Play_w_grenade_throw_fp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_w_grenade_select_fp" path="w_grenade_handling_fp">
+   <SDLMixerEvent event_id="1520" sdl_name="w_grenade_foley_select.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_w_grenade_foley_select_fp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_w_grenade_unlock_fp" path="w_grenade_handling_fp">
+   <SDLMixerEvent event_id="1521" sdl_name="w_grenade_foley_unlock.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_w_grenade_foley_unlock_fp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_w_grenade_throw_3p" path="w_grenade_handling_fp">
+   <WwiseEvent wwise_name="Play_w_grenade_throw_3p"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="w_grenade_handling_3p"/>
+   <Folder name="w_grenade_handling_fp"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

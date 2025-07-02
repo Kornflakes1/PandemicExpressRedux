@@ -1,0 +1,54 @@
+<ATLConfig atl_name="l_vr_demo" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_closed" atl_radius="12">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_closed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_opened" atl_radius="12">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_opened"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_sphere" atl_radius="6">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_sphere"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_power_sparks" atl_radius="6">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_power_sparks"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_ventilation_fan" atl_radius="12">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_ventilation_fan"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_growing_chamber" atl_radius="6">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_growing_chamber"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_03" atl_radius="6">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_03"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_02" atl_radius="8">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_02"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_01" atl_radius="6">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_open" atl_radius="12">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_close" atl_radius="12">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_amb_hallway">
+   <WwiseEvent wwise_name="Play_l_vr_demo_amb_hallway"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_amb_room_01">
+   <WwiseEvent wwise_name="Play_l_vr_demo_amb_room_01"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="l_vr_demo" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="l_vr_demo_a.bnk"/>
+    <WwiseFile wwise_name="l_vr_demo_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

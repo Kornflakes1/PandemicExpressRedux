@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/defaults/perlinnoise2d.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams StartRadius="0.5" EndRadius="3" StartColor="0.78353792,0.82278591,0.87136728" EndColor="0,0,0" FinalMultiplier="0.5" SoftIntersectionFactor="1" BeamLength="15" viewDependencyFactor="0.25" OrigLength="10" OrigWidth="1"/>
+</Material>

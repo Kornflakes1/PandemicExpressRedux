@@ -1,0 +1,310 @@
+<ATLConfig atl_name="g_atl_switches" atl_version="2">
+ <AudioSwitches>
+  <ATLSwitch atl_name="mixing_state_underwater">
+   <ATLSwitchState atl_name="active">
+    <WwiseState wwise_name="mixing_state_underwater">
+     <WwiseValue wwise_name="active"/>
+    </WwiseState>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="inactive">
+    <WwiseState wwise_name="mixing_state_underwater">
+     <WwiseValue wwise_name="inactive"/>
+    </WwiseState>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="1stOr3rdP">
+   <ATLSwitchState atl_name="1stP">
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_concrete" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_grass_tall" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_leaves" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_chainlink" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_vegetation" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_dirt" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_water_deep" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_sand_dry" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_pebble" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_plastic" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_fabric" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_grate" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_wood_solid" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_gravel" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_sheet" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_wood_hollow" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_water_shallow" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_thick" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_mud" fmod_value="0"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_grass" fmod_value="0"/>
+    <WwiseSwitch wwise_name="switch_firstperson_thirdperson">
+     <WwiseValue wwise_name="first_person"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="3rdP">
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_concrete" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_grass_tall" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_leaves" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_chainlink" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_vegetation" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_dirt" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_water_deep" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_sand_dry" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_pebble" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_plastic" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_fabric" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_grate" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_wood_solid" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_gravel" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_sheet" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_wood_hollow" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_water_shallow" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_metal_thick" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_mud" fmod_value="1"/>
+    <FmodEventParameter fmod_name="firstperson_thirdperson" fmod_path="c_player/c_player_fts/c_player_fts_grass" fmod_value="1"/>
+    <WwiseSwitch wwise_name="switch_firstperson_thirdperson">
+     <WwiseValue wwise_name="third_person"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="SurfaceType">
+   <ATLSwitchState atl_name="concrete">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="1"/>
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="concrete"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="default">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="0"/>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="dirt">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="dirt"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="fabric">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="fabric"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="grass">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="2"/>
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="grass"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="grass_tall">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="grass_tall"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="gravel">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="gravel"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="ice">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="ice"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="leaves">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="leaves"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="metal">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="metal"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="metal_chainlink">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="metal_chainlink"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="metal_grate">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="metal_grate"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="metal_sheet">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="metal_sheet"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="metal_thick">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="metal_thick"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="mud">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="mud"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="pebble">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="pebble"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="plastic">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="plastic"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="rock">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="concrete"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="sand_dry">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="sand_dry"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="soil">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="soil"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="vegetation">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="vegetation"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="water">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="3"/>
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="water"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="water_deep">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="3"/>
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="water_deep"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="water_shallow">
+    <FmodEventParameter fmod_name="surface" fmod_path="c_player/c_player_fts/c_player_fts_pl" fmod_value="3"/>
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="water_shallow"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="wood_hollow">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="wood_hollow"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="wood_solid">
+    <WwiseSwitch wwise_name="switch_surface">
+     <WwiseValue wwise_name="wood_solid"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="in_out">
+   <ATLSwitchState atl_name="inside">
+    <WwiseSwitch wwise_name="switch_v_listener">
+     <WwiseValue wwise_name="inside"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="outside">
+    <WwiseSwitch wwise_name="switch_v_listener">
+     <WwiseValue wwise_name="outside"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="menu_ingame">
+   <ATLSwitchState atl_name="enter_menu">
+    <WwiseState wwise_name="state_global_menu">
+     <WwiseValue wwise_name="enter_menu"/>
+    </WwiseState>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="none_menu_ingame">
+    <WwiseState wwise_name="state_l_woodland_mixing">
+     <WwiseValue wwise_name="None"/>
+    </WwiseState>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="object_velocity_tracking_1">
+   <ATLSwitchState atl_name="off">
+    <ATLSwitchRequest atl_name="object_velocity_tracking">
+     <ATLValue atl_name="off"/>
+    </ATLSwitchRequest>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="on">
+    <ATLSwitchRequest atl_name="object_velocity_tracking">
+     <ATLValue atl_name="on"/>
+    </ATLSwitchRequest>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="vegetation_type">
+   <ATLSwitchState atl_name="banana_leaves">
+    <FmodEventParameter fmod_name="vegetation_type" fmod_path="p_col/p_col_vegetation" fmod_value="2"/>
+    <WwiseSwitch wwise_name="switch_vegetation_type">
+     <WwiseValue wwise_name="banana_leaves"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="dry_leaves">
+    <FmodEventParameter fmod_name="vegetation_type" fmod_path="p_col/p_col_vegetation" fmod_value="3"/>
+    <WwiseSwitch wwise_name="switch_vegetation_type">
+     <WwiseValue wwise_name="dry_leaves"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="dry_leaves_big">
+    <FmodEventParameter fmod_name="vegetation_type" fmod_path="p_col/p_col_vegetation" fmod_value="3"/>
+    <WwiseSwitch wwise_name="switch_vegetation_type">
+     <WwiseValue wwise_name="dry_leaves_big"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="leaves_long">
+    <FmodEventParameter fmod_name="vegetation_type" fmod_path="p_col/p_col_vegetation" fmod_value="1"/>
+    <WwiseSwitch wwise_name="switch_vegetation_type">
+     <WwiseValue wwise_name="leaves_long"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="palm_leaves">
+    <FmodEventParameter fmod_name="vegetation_type" fmod_path="p_col/p_col_vegetation" fmod_value="2"/>
+    <WwiseSwitch wwise_name="switch_vegetation_type">
+     <WwiseValue wwise_name="palm_leaves"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="weather">
+   <ATLSwitchState atl_name="clear">
+    <WwiseState wwise_name="state_global_weather">
+     <WwiseValue wwise_name="clear"/>
+    </WwiseState>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="rain">
+    <WwiseState wwise_name="state_global_weather">
+     <WwiseValue wwise_name="rain"/>
+    </WwiseState>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="character">
+   <ATLSwitchState atl_name="ai_01">
+    <WwiseSwitch wwise_name="switch_character_type">
+     <WwiseValue wwise_name="ai_npc_01"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="ai_02">
+    <WwiseSwitch wwise_name="switch_character_type">
+     <WwiseValue wwise_name="ai_npc_02"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="object_doppler_tracking_1">
+   <ATLSwitchState atl_name="on">
+    <ATLSwitchRequest atl_name="object_doppler_tracking">
+     <ATLValue atl_name="on"/>
+    </ATLSwitchRequest>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="off">
+    <ATLSwitchRequest atl_name="object_doppler_tracking">
+     <ATLValue atl_name="off"/>
+    </ATLSwitchRequest>
+   </ATLSwitchState>
+  </ATLSwitch>
+ </AudioSwitches>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

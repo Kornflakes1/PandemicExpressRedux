@@ -1,0 +1,28 @@
+<ATLConfig atl_name="v_global" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_v_global_beep_boat">
+   <WwiseEvent wwise_name="Play_v_global_beep_boat"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_beep_air">
+   <WwiseEvent wwise_name="Play_v_global_beep_air"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_light">
+   <WwiseEvent wwise_name="Play_v_global_light"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_spotlight">
+   <WwiseEvent wwise_name="Play_v_global_spotlight"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_beep_tank">
+   <WwiseEvent wwise_name="Play_v_global_beep_tank"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_flashlight">
+   <WwiseEvent wwise_name="Play_v_global_flashlight"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_v_global_beep_wheeled">
+   <WwiseEvent wwise_name="Play_v_global_beep_wheeled"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

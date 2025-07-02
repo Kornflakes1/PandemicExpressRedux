@@ -1,0 +1,155 @@
+<ATLConfig atl_name="g_atl_preloads" atl_version="2">
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="v_abrams" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="v_abrams_a.bnk"/>
+    <WwiseFile wwise_name="v_abrams_d.bnk"/>
+    <WwiseFile wwise_name="w_tank_cannon_a.bnk"/>
+    <WwiseFile wwise_name="w_tank_cannon_d.bnk"/>
+    <WwiseFile wwise_name="w_tank_machinegun_a.bnk"/>
+    <WwiseFile wwise_name="w_tank_machinegun_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="v_global" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="v_global_a.bnk"/>
+    <WwiseFile wwise_name="v_global_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="v_hmmwv" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="v_hmmwv_a.bnk"/>
+    <WwiseFile wwise_name="v_hmmwv_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="v_mh60_blackhawk" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="v_mh60_blackhawk_a.bnk"/>
+    <WwiseFile wwise_name="v_mh60_blackhawk_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="v_speedboat" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <FmodFile fmod_name="v_speedboat.bank"/>
+    <FmodFile fmod_name="v_speedboat.bank"/>
+    <FmodFile fmod_name="v_speedboat.bank"/>
+    <FmodFile fmod_name="v_speedboat.bank"/>
+    <WwiseFile wwise_name="v_speedboat_a.bnk"/>
+    <WwiseFile wwise_name="v_speedboat_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="v_swat_van" path="vehicles" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="v_swat_van_a.bnk"/>
+    <WwiseFile wwise_name="v_swat_van_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_global" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <FmodFile fmod_name="w_global.bank"/>
+    <FmodFile fmod_name="w_global.bank"/>
+    <FmodFile fmod_name="w_global.bank"/>
+    <FmodFile fmod_name="w_global.bank"/>
+    <WwiseFile wwise_name="w_global_a.bnk"/>
+    <WwiseFile wwise_name="w_global_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_grenade" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_grenade_a.bnk"/>
+    <WwiseFile wwise_name="w_grenade_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_hmg" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_hmg_a.bnk"/>
+    <WwiseFile wwise_name="w_hmg_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_melee" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_melee_a.bnk"/>
+    <WwiseFile wwise_name="w_melee_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_pistol" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <FmodFile fmod_name="w_pistol.bank"/>
+    <FmodFile fmod_name="w_pistol.bank"/>
+    <FmodFile fmod_name="w_pistol.bank"/>
+    <FmodFile fmod_name="w_pistol.bank"/>
+    <WwiseFile wwise_name="w_pistol_a.bnk"/>
+    <WwiseFile wwise_name="w_pistol_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_rifle" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_rifle_a.bnk"/>
+    <WwiseFile wwise_name="w_rifle_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_rocketlauncher" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_rocketlauncher_a.bnk"/>
+    <WwiseFile wwise_name="w_rocketlauncher_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="w_shotgun" path="weapons" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <WwiseFile wwise_name="w_shotgun_a.bnk"/>
+    <WwiseFile wwise_name="w_shotgun_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+  <ATLPreloadRequest atl_name="global_preloaddata" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <FmodFile fmod_name="l_global.bank"/>
+    <FmodFile fmod_name="c_player.bank"/>
+    <FmodFile fmod_name="p_pfx.bank"/>
+    <FmodFile fmod_name="p_pro.bank"/>
+    <FmodFile fmod_name="p_col.bank"/>
+    <FmodFile fmod_name="c_npc.bank"/>
+    <FmodFile fmod_name="default.bank"/>
+    <FmodFile fmod_name="l_global.bank"/>
+    <FmodFile fmod_name="c_player.bank"/>
+    <FmodFile fmod_name="p_pfx.bank"/>
+    <FmodFile fmod_name="p_pro.bank"/>
+    <FmodFile fmod_name="p_col.bank"/>
+    <FmodFile fmod_name="c_npc.bank"/>
+    <FmodFile fmod_name="default.bank"/>
+    <FmodFile fmod_name="l_global.bank"/>
+    <FmodFile fmod_name="c_player.bank"/>
+    <FmodFile fmod_name="p_pfx.bank"/>
+    <FmodFile fmod_name="p_pro.bank"/>
+    <FmodFile fmod_name="p_col.bank"/>
+    <FmodFile fmod_name="c_npc.bank"/>
+    <FmodFile fmod_name="default.bank"/>
+    <FmodFile fmod_name="l_global.bank"/>
+    <FmodFile fmod_name="c_player.bank"/>
+    <FmodFile fmod_name="p_pfx.bank"/>
+    <FmodFile fmod_name="p_pro.bank"/>
+    <FmodFile fmod_name="p_col.bank"/>
+    <FmodFile fmod_name="c_npc.bank"/>
+    <FmodFile fmod_name="default.bank"/>
+    <WwiseFile wwise_name="l_global_d.bnk"/>
+    <WwiseFile wwise_name="l_global_a.bnk"/>
+    <WwiseFile wwise_name="g_events_d.bnk"/>
+    <WwiseFile wwise_name="c_global_d.bnk"/>
+    <WwiseFile wwise_name="c_global_a.bnk"/>
+    <WwiseFile wwise_name="c_global_voc_a.bnk" wwise_localised="true"/>
+    <WwiseFile wwise_name="c_global_voc_d.bnk" wwise_localised="true"/>
+    <WwiseFile wwise_name="p_global_a.bnk"/>
+    <WwiseFile wwise_name="p_global_d.bnk"/>
+    <WwiseFile wwise_name="ui_hud_a.bnk"/>
+    <WwiseFile wwise_name="ui_hud_d.bnk"/>
+    <WwiseFile wwise_name="ui_menu_a.bnk"/>
+    <WwiseFile wwise_name="ui_menu_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+ <EditorData>
+  <Folders>
+   <Folder name="vehicles"/>
+   <Folder name="weapons"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

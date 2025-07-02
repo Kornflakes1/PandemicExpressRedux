@@ -1,0 +1,7 @@
+<download name="Purgatorium_Esc_Reverse" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33955610" md5="27ba2b6bf898a84e5fc22bbee990418e"/>
+  <file src="Purgatorium_Esc_Reverse.xml" dest="Purgatorium_Esc_Reverse.xml" size="371" md5="b437f0c02b3a01b0a77ed96b7777e2ea"/>
+ </files>
+</download>

@@ -1,0 +1,63 @@
+<ATLConfig atl_name="l_audio_tutorial" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_dia_04" path="l_audio_tutorial_dia">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_dia/l_audio_tutorial_dia_04"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_dia_04.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_dia_04"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_dia_01" path="l_audio_tutorial_dia">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_dia/l_audio_tutorial_dia_01"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_dia_01.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-15" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_dia_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_dia_02" path="l_audio_tutorial_dia">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_dia/l_audio_tutorial_dia_02"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_dia_02.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-15" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_dia_02"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_dia_03" path="l_audio_tutorial_dia">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_dia/l_audio_tutorial_dia_03"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_dia_03.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-15" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_dia_03"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_sfx_waterfall_splashes" path="l_audio_tutorial_sfx">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_sfx/l_audio_tutorial_sfx_waterfall_splashes"/>
+   <SDLMixerEvent sdl_name="l_audio_demo_sfx_waterfall.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-4" loop_count="-1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_sfx_waterfall_splashes"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_sfx_thunder" path="l_audio_tutorial_sfx">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_sfx/l_audio_tutorial_sfx_thunder"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_sfx_thunder.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-6" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_sfx_thunder"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_sfx_bird_chirping" path="l_audio_tutorial_sfx">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_sfx/l_audio_tutorial_sfx_bird_chirping"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_sfx_bird_chirping.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="5" volume="-12" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_sfx_bird_chirping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_audio_tutorial_amb_birds_forest" path="l_audio_tutorial_amb">
+   <FmodEvent fmod_name="l_audio_tutorial/l_audio_tutorial_amb/l_audio_tutorial_amb_birds_forest"/>
+   <SDLMixerEvent sdl_name="l_audio_tutorial_amb_birds_forest.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="5" volume="-6" loop_count="-1"/>
+   <WwiseEvent wwise_name="Play_l_audio_tutorial_amb_birds_forest"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="l_audio_tutorial" atl_type="AutoLoad">
+   <ATLPlatform atl_name="pc">
+    <FmodFile fmod_name="l_audio_tutorial.bank"/>
+    <FmodFile fmod_name="l_audio_tutorial.bank"/>
+    <FmodFile fmod_name="l_audio_tutorial.bank"/>
+    <FmodFile fmod_name="l_audio_tutorial.bank"/>
+    <WwiseFile wwise_name="l_audio_tutorial_a.bnk"/>
+    <WwiseFile wwise_name="l_audio_tutorial_d.bnk"/>
+   </ATLPlatform>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+ <EditorData>
+  <Folders>
+   <Folder name="l_audio_tutorial_dia"/>
+   <Folder name="l_audio_tutorial_sfx"/>
+   <Folder name="l_audio_tutorial_amb"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>
