@@ -28,10 +28,10 @@
   <Attachment Type="CA_BONE" AName="left_hand_finger4" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 L Finger42" Flags="0"/>
   <Attachment Type="CA_BONE" AName="left_hand_root" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 L Hand" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="shoes" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="pants" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Pants.skin" Material="Objects/characters/human/Dude/source/pin_zmb_mat1.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="pants" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Pants.skin" Material="Objects/characters/human/Dude/source/pin_zmb_mat1.mtl" Flags="1"/>
   <Attachment Type="CA_SKIN" AName="gloves" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="body" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Torso.skin" Material="Objects/characters/human/Dude/source/pin_zmb_mat1.mtl" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="head" Flags="6"/>
+  <Attachment Type="CA_SKIN" AName="body" Binding="objects/zhg_objects/characters/conserve/Conserve_FP_NonMM.skin" Material="objects/zhg_objects/characters/conserve/M_Conserve_Bomber_Pass.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="head" Binding="Objects/zhg_objects/characters/conserve_head/conservehead.skin" Material="objects/zhg_objects/characters/conserve/M_Conserve_Bomber_Pass.mtl" Flags="1"/>
   <Attachment Type="CA_BONE" AName="stow_bow1" Rotation="0.11518285,0.71013319,0.68677205,0.10386412" Position="0.12618713,-0.20954716,1.4089395" BoneName="Bip01 Spine2" PA_PendulumType="3" PA_SimulationAxis="0,0.5,0" Flags="0"/>
   <Attachment Type="CA_BONE" AName="stow_bow2" Rotation="0.11010577,0.71434009,-0.67589575,-0.14408298" Position="-0.12618791,-0.20954621,1.4089382" BoneName="Bip01 Spine2" PA_PendulumType="3" PA_SimulationAxis="0,0.5,0" Flags="0"/>
   <Attachment Type="CA_PROX" AName="rupperarm" Rotation="0.042163812,-0.85643905,-0.0096320882,0.51443321" Position="0.27474475,-0.037759706,1.3731182" BoneName="Bip01 R UpperArm" ProxyParams="0.1,0,0,0.079999998" ProxyPurpose="0"/>
@@ -39,10 +39,10 @@
   <Attachment Type="CA_BONE" AName="rhand" RelRotation="0.95259231,0.021323834,-0.12027923,-0.27865022" RelPosition="-8.3446503e-06,1.0490417e-05,-0.011850357" BoneName="Bip01 R Hand" Flags="0"/>
   <Attachment Type="CA_BONE" AName="relbow" RelRotation="0.85904479,-0.054047074,-0.031961657,0.50803477" RelPosition="-9.5367432e-07,-9.5367432e-07,-3.3378601e-06" BoneName="Bip01 R Forearm" Flags="0"/>
   <Attachment Type="CA_BONE" AName="rshoulder" RelRotation="0.99753809,0.061964445,-0.031296358,0.0099288169" RelPosition="-0.0003490448,0.00030517578,-0.00030517578" BoneName="Bip01 R UpperArm" Flags="0"/>
-  <Attachment Type="CA_BONE" AName="lhand" RelRotation="0.63566959,0.70914888,0.29818669,-0.064160779" RelPosition="0.00036144257,-7.6293945e-05,-0.010742188" BoneName="Bip01 L Hand" Flags="0"/>
+  <Attachment Type="CA_BONE" AName="lhand" RelRotation="0.63566965,0.70914888,0.29818672,-0.064160779" RelPosition="-0.0037787482,0.0020176005,-0.0036024069" BoneName="Bip01 L Hand" Flags="0"/>
   <Attachment Type="CA_BONE" AName="lelbow" RelRotation="0.96029395,7.7486158e-07,-5.2154155e-07,0.27899015" RelPosition="0.00015544891,-0.0003080368,-9.5367432e-07" BoneName="Bip01 L Forearm" Flags="0"/>
   <Attachment Type="CA_BONE" AName="lshoulder" RelRotation="0.99753237,0.030368913,0.062814645,0.0078159506" RelPosition="-0.00030517578,0.00033569336,-0.00024414063" BoneName="Bip01 L UpperArm" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="Hands" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebelliomSet_Hands.skin" Material="Objects/characters/human/Dude/source/pin_zmb_mat1.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="Hands" Flags="0"/>
  </AttachmentList>
  <Modifiers>
   <Element>

@@ -1,0 +1,35 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="30400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.0056053922,0.0056053922,0.0056053922" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/defaults/grey.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.2" TexMod_VOscillatorAmplitude="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/window_streaks_glass_ddn.dds"/>
+    <Texture Map="Specular" File="Textures/zhg_textures/Water/water_mud_a_spec.tif"/>
+    <Texture Map="Detail" File="Textures/defaults/grey.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="15" TileV="15"/>
+    </Texture>
+    <Texture Map="Emittance" File="./txt/zb_emiss.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="lights" MtlFlags="524416" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,5000" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./txt/zb_emiss.tif"/>
+    <Texture Map="Emittance" File="./txt/zb_emiss.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="lods" MtlFlags="524416" Shader="Illum" GenMask="30400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.064803272,0.064803272,0.064803272" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/defaults/grey.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/window_streaks_glass_ddn.dds"/>
+    <Texture Map="Specular" File="Textures/zhg_textures/Water/water_mud_a_spec.tif"/>
+    <Texture Map="Emittance" File="./txt/zb_emiss.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

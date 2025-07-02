@@ -1,0 +1,13 @@
+<ATLConfig atl_name="br_doors" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="br_metal_door_close">
+   <SDLMixerEvent sdl_name="br_door_metal_close.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_metal_door_open">
+   <SDLMixerEvent sdl_name="br_door_metal_open.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

@@ -1,0 +1,193 @@
+<ATLConfig atl_name="l_global" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_global_amb_rain_exterior" path="l_global_amb">
+   <WwiseEvent wwise_name=""/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_rain_exterior_v2" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_rain_exterior"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_rain_interior" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_rain_interior"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_cicadas_night" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_cicadas_night"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_wind_spooky" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_wind_spooky"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_cicadas_day" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_cicadas_day"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_cave_mysterious" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_cave_mysterious"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_wind_light" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_wind_light"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_open_ground" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_open_ground"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_ambl_wind_cold" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_ambl_wind_cold"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_trees_mixed" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_trees_mixed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_amb_wind_storm" path="l_global_amb">
+   <WwiseEvent wwise_name="Play_l_global_amb_wind_storm"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_death_chicken" path="l_global_boids/chicken">
+   <SDLMixerEvent event_id="1283" sdl_name="l_global_boids_chicken_death.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_global/l_global_boid/l_global_boid_chicken/l_global_boid_chicken_death"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_chicken_death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_idle_chicken" path="l_global_boids/chicken">
+   <SDLMixerEvent event_id="1284" sdl_name="l_global_boids_chicken_idle.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_global/l_global_boid/l_global_boid_chicken/l_global_boid_chicken_idle"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_chicken_idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_scared_chicken" path="l_global_boids/chicken">
+   <SDLMixerEvent event_id="1285" sdl_name="l_global_boids_chicken_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <FmodEvent fmod_name="l_global/l_global_boid/l_global_boid_chicken/l_global_boid_chicken_scared"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_chicken_scared"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_death_frog" path="l_global_boids/frog">
+   <SDLMixerEvent event_id="1286" sdl_name="l_global_boids_frog_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_frog_death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_idle_frog" path="l_global_boids/frog">
+   <SDLMixerEvent event_id="1287" sdl_name="l_global_boids_frog_idle.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_frog_idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_scared_frog" path="l_global_boids/frog">
+   <SDLMixerEvent event_id="1288" sdl_name="l_global_boids_frog_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_frog_scared"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_death_turtle" path="l_global_boids/turtle">
+   <SDLMixerEvent event_id="1289" sdl_name="l_global_boids_turtle_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_turtle_death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_idle_turtle" path="l_global_boids/turtle">
+   <SDLMixerEvent event_id="1290" sdl_name="l_global_boids_turtle_idle.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_turtle_idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_scared_turtle" path="l_global_boids/turtle">
+   <SDLMixerEvent event_id="1291" sdl_name="l_global_boids_turtle_scared.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_boids_turtle_scared"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_solid_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_solid_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_old_closed" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_old_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_metal_solid_closed" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_metal_solid_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_metal_solid_close" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_metal_solid_move"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_metal_solid_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_metal_solid_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_solid_close" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_solid_move"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_solid_closed" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_solid_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_old_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_old_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_door_wood_old_close" path="l_global_sce">
+   <WwiseEvent wwise_name="Play_l_global_sce_door_wood_old_move"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_door_metal_solid_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Stop_l_global_sce_door_metal_solid_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_door_wood_old_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Stop_l_global_sce_door_wood_old_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_door_wood_solid_open" path="l_global_sce">
+   <WwiseEvent wwise_name="Stop_l_global_sce_door_wood_solid_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_waterfall_small_splashes" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_waterfall_small_splashes"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_wind_gust" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_wind_gust"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_vegetation_stick_crack" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_vegetation_stick_crack"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_waterfall_medium_loop" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_waterfall_medium_loop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_vegetation_stick_dropping" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_vegetation_stick_dropping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_water_rain_drops_wind" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_water_rain_drops_wind"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_water_dripping" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_water_dripping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_waterfall_large_loop" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_waterfall_large_loop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_bird_woodpecker" path="l_global_sfx">
+   <SDLMixerEvent event_id="1292" sdl_name="l_global_sfx_woodpecker.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_sfx_bird_woodpecker"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_vegetation_log_creak" path="l_global_sfx">
+   <SDLMixerEvent event_id="1293" sdl_name="l_global_sfx_log_creak.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_sfx_vegetation_log_creak"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_bush_leaves" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_bush_leaves"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_crow" path="l_global_sfx">
+   <SDLMixerEvent event_id="1294" sdl_name="l_global_sfx_crow.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+   <WwiseEvent wwise_name="Play_l_global_sfx_crow"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_creaks_metal" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_creaks_metal"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_thunder" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_thunder"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_bird_fly_off" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_bird_fly_off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_bird_chirping" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_bird_chirping"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_bird_fly_off_calm" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_bird_fly_off_calm"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_flies" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_flies"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_metal_creaks" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_metal_creaks"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_vegetation_bush_movement" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_vegetation_bush_movement"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_global_sfx_waterfall_small_loop" path="l_global_sfx">
+   <WwiseEvent wwise_name="Play_l_global_sfx_waterfall_small_loop"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="l_global_amb"/>
+   <Folder name="l_global_boids">
+    <Folder name="chicken"/>
+    <Folder name="frog"/>
+    <Folder name="turtle"/>
+   </Folder>
+   <Folder name="l_global_sce"/>
+   <Folder name="l_global_sfx"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

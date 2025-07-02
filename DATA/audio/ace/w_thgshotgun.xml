@@ -1,0 +1,18 @@
+<ATLConfig atl_name="w_thgshotgun" atl_version="2">
+ <AudioTriggers>
+   <ATLTrigger atl_name="Play_w_thgshotgun_reload_1p" path="w_thgshotgun_handling_1p">
+   <WwiseEvent wwise_name="Play_thgshotgun_reload_fp_01"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioTriggers>
+   <ATLTrigger atl_name="w_thgshotgun_fire_1p" path="w_thgshotgun_fire_1p">
+   <WwiseEvent wwise_name="Play_thgshotgun_shot_fp_01"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="w_thgshotgun_handling_1p"/>
+   <Folder name="w_thgshotgun_fire_1p"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

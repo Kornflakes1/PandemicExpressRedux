@@ -4,8 +4,8 @@
   <Attachment Type="CA_BONE" AName="#camera" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 Camera" Flags="0"/>
   <Attachment Type="CA_BONE" AName="head_lgt1" Rotation="0.49331406,-0.50659811,-0.49331319,0.506598" Position="-0.0012082596,0.14501388,1.7963544" BoneName="Bip01 Head" Flags="0"/>
   <Attachment Type="CA_BONE" AName="weapon" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="weapon_bone" Flags="0"/>
-  <Attachment Type="CA_BONE" AName="eye_left" RelRotation="0.68454731,2.4028145e-07,5.9604695e-08,0.72896844" RelPosition="0.0063977242,0.029041886,0.0027792454" BoneName="eye_left_bone" Flags="0"/>
-  <Attachment Type="CA_BONE" AName="eye_right" RelRotation="0.70710731,8.7358137e-07,5.9604503e-08,0.70710623" RelPosition="0.016373873,0.040604681,-0.0061039925" BoneName="eye_right_bone" Flags="0"/>
+  <Attachment Type="CA_BONE" AName="eye_left" Binding="Objects/effects/lights/beam.cgf" Material="Objects/effects/lights/beam_zombie.mtl" RelRotation="0.68454725,2.4028142e-07,5.9604695e-08,0.72896838" RelPosition="0.0063977242,0.029041886,0.0027792454" BoneName="eye_left_bone" Flags="0"/>
+  <Attachment Type="CA_BONE" AName="eye_right" Binding="Objects/effects/lights/beam.cgf" Material="Objects/effects/lights/beam_zombie.mtl" RelRotation="0.70710731,8.7358137e-07,5.9604503e-08,0.70710623" RelPosition="0.016373873,0.040604681,-0.0061039925" BoneName="eye_right_bone" Flags="0"/>
   <Attachment Type="CA_BONE" AName="player_grab" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="weapon_bone" Flags="0"/>
   <Attachment Type="CA_BONE" AName="player_grabnpc" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 L Hand" Flags="0"/>
   <Attachment Type="CA_BONE" AName="left_weapon" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Lweapon_bone" Flags="0"/>
@@ -29,7 +29,7 @@
   <Attachment Type="CA_SKIN" AName="shoes" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="pants" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="gloves" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="body" Binding="Objects/zhg_objects/characters/conserve/conserve_body.skin" Material="Objects/zhg_objects/characters/conserve/M_Conserve.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="body" Binding="Objects/zhg_objects/characters/conserve/conserve_bodyMain.skin" Material="Objects/zhg_objects/characters/conserve/M_Conserve.mtl" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="armor" Flags="0"/>
   <Attachment Type="CA_BONE" AName="hair" RelRotation="0.70640087,0.031597976,0.70639992,-0.031597976" RelPosition="0.16346169,-0.0064978004,-0.0070757866" BoneName="Bip01 Head" Flags="0"/>
   <Attachment Type="CA_BONE" AName="detonator" RelRotation="0.70745194,0,0.70676136,-0" RelPosition="0,0,-1.1641532e-09" BoneName="Bip01 Head" Flags="6"/>
@@ -52,6 +52,8 @@
   <Attachment Type="CA_BONE" AName="head_lgt3" Binding="Objects/zhg_objects/characters/attachments/zombie/eyes.cgf" Material="Objects/zhg_objects/characters/attachments/zombie/eyes.mtl" RelRotation="0.36812466,0.92977643,-7.4505778e-08,-1.0207311e-06" RelPosition="0.029654199,0.054469563,0.0016825451" BoneName="eye_right_bone" Flags="0" ViewDistRatio="255"/>
   <Attachment Type="CA_BONE" AName="z_prop_att_shield" RelRotation="0.70153099,-0.088624008,0.70153093,0.088623971" RelPosition="0.70304108,0.29771054,2.6077032e-07" BoneName="Bip01 Spine1" Flags="0"/>
   <Attachment Type="CA_BONE" AName="z_prop_att_shield_eq" RelRotation="-3.091786e-08,0.70689529,3.0899376e-08,0.70731819" RelPosition="-0.97377783,0.011378597,0.0044463575" BoneName="Bip01 Spine1" Flags="0"/>
+  <Attachment Type="CA_BONE" AName="eye_left" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="eye_left_bone" Flags="0"/>
+  <Attachment Type="CA_BONE" AName="eye_right" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="eye_right_bone" Flags="0"/>
  </AttachmentList>
  <Modifiers>
   <Element>

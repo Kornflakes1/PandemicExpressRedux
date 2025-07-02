@@ -1,0 +1,13 @@
+<ATLConfig atl_name="ui_hud" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_ui_hud_mission_completed">
+   <WwiseEvent wwise_name="Play_ui_hud_mission_completed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ui_hud_mission_activated">
+   <WwiseEvent wwise_name="Play_ui_hud_mission_activated"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

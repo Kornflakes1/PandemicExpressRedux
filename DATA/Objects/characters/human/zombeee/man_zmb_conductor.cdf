@@ -28,13 +28,13 @@
   <Attachment Type="CA_BONE" AName="left_hand_finger4" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 L Finger42" Flags="0"/>
   <Attachment Type="CA_BONE" AName="left_hand_root" RelRotation="1,0,0,0" RelPosition="0,0,0" BoneName="Bip01 L Hand" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="shoes" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="pants" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Pants.skin" Material="Objects/characters/human/Dude/source/pin_zmb_cond.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="pants" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Pants.skin" Material="Objects/characters/human/Dude/source/pin_zmb_mat1.mtl" Flags="1"/>
   <Attachment Type="CA_SKIN" AName="gloves" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="body" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebellionSet_Torso.skin" Material="Objects/characters/human/Dude/source/pin_zmb_cond.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="body" Binding="objects/zhg_objects/characters/conserve/Conserve_FP_NonMM.skin" Material="objects/zhg_objects/characters/conserve/M_Conserve_Conductor.mtl" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="armor" Flags="0"/>
   <Attachment Type="CA_BONE" AName="hair" RelRotation="0.70640087,0.031597976,0.70639992,-0.031597976" RelPosition="0.16346169,-0.0064978004,-0.0070757866" BoneName="Bip01 Head" Flags="0"/>
   <Attachment Type="CA_BONE" AName="detonator" RelRotation="0.70745194,0,0.70676136,-0" RelPosition="0,0,-1.1641532e-09" BoneName="Bip01 Head" Flags="6"/>
-  <Attachment Type="CA_SKIN" AName="head" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="head" Binding="Objects/zhg_objects/characters/conserve_head/conservehead.skin" Material="objects/zhg_objects/characters/conserve/M_Conserve_Conductor.mtl" Flags="1"/>
   <Attachment Type="CA_SKIN" AName="legs" Flags="0"/>
   <Attachment Type="CA_BONE" AName="stow_bow1" Rotation="0.11518275,0.71013325,0.68677211,0.10386409" Position="0.12618713,-0.20954716,1.4089395" BoneName="Bip01 Spine2" PA_PendulumType="3" PA_SimulationAxis="0,0.5,0" Flags="0"/>
   <Attachment Type="CA_BONE" AName="stow_bow2" Rotation="0.11010572,0.71433991,-0.67589581,-0.14408301" Position="-0.12618791,-0.20954621,1.4089382" BoneName="Bip01 Spine2" PA_PendulumType="3" PA_SimulationAxis="0,0.5,0" Flags="0"/>
@@ -47,7 +47,7 @@
   <Attachment Type="CA_BONE" AName="lhand" RelRotation="0.63566935,0.70914906,0.2981869,-0.06416095" RelPosition="0.00036144257,-7.6293945e-05,-0.010742188" BoneName="Bip01 L Hand" Flags="0"/>
   <Attachment Type="CA_BONE" AName="lelbow" RelRotation="0.96029395,7.7486158e-07,-5.2154155e-07,0.27899015" RelPosition="0.00015544891,-0.0003080368,-9.5367432e-07" BoneName="Bip01 L Forearm" Flags="0"/>
   <Attachment Type="CA_BONE" AName="lshoulder" RelRotation="0.99753237,0.030368941,0.06281472,0.0078159478" RelPosition="-0.00030517578,0.00033569336,-0.00024414063" BoneName="Bip01 L UpperArm" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="Hands" Binding="Objects/zhg_objects/characters/sets/RebellionSet/RebelliomSet_Hands.skin" Material="Objects/characters/human/Dude/source/pin_zmb_cond.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="Hands" Material="Objects/characters/human/Dude/source/pin_zmb_cond.mtl" Flags="0"/>
  </AttachmentList>
  <Modifiers>
   <Element>

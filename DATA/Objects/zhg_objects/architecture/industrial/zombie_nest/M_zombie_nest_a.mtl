@@ -24,15 +24,15 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="details" MtlFlags="524448" Shader="Illum" GenMask="1000004000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.070360102,0.13563335,0.1441285" Emittance="0.83077002,0.1169707,0.00060705398,105" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+  <Material Name="details" MtlFlags="542880" Shader="Glass" GenMask="8C0000008000" StringGenMask="%DIRT_MAP%SPECULAR_MAP%TINT_MAP%UNLIT" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.10461649,0.10461649,0.10461649" Opacity="1" Shininess="255" AlphaTest="0.1" CloakAmount="0" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="Textures/zhg_textures/glass/square_glass_illum_diff.dds">
-     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.7" OffsetU="0.1" TileV="1.6" OffsetV="-2.01"/>
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
     </Texture>
     <Texture Map="Bumpmap" File="Textures/zhg_textures/glass/square_glass_ddna.dds"/>
-    <Texture Map="Emittance" File="Textures/zhg_textures/glass/square_glass_emiss_diff.tif"/>
+    <Texture Map="Specular" File="Textures/zhg_textures/glass/square_glass_spec.dds"/>
    </Textures>
-   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+   <PublicParams BumpMapTile="1" TintColor="0.42326769,0.20155628,0.082282715" CloudinessReducesGloss="0.5" TintCloudiness="1" BackLightScale="0.5" BumpScale="0.25"/>
   </Material>
   <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="1002004000010" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
    <Textures>
@@ -53,24 +53,12 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="SubMtl7" MtlFlags="524448" Shader="Illum" GenMask="1000004000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.11443538,0.11443538,0.11443538" Emittance="1,1,1,5" Opacity="1" Shininess="223" CloakAmount="0" vertModifType="0" LayerAct="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/glass/square_glass_illum_diff.dds">
-     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2" OffsetV="-0.5"/>
-    </Texture>
-    <Texture Map="Bumpmap" File="Textures/zhg_textures/glass/square_glass_ddna.dds"/>
-    <Texture Map="Emittance" File="Textures/zhg_textures/glass/square_glass_emiss_diff.tif"/>
-   </Textures>
-   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-  </Material>
-  <Material Name="SubMtl8" MtlFlags="524448" Shader="Illum" GenMask="1800004000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.23074007,0.23074007,0.23074007" Emittance="0.83077002,0.1169707,0.00060705398,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+  <Material Name="SubMtl7" MtlFlags="540832" Shader="Illum" GenMask="1000004000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.070360102,0.13563335,0.1441285" Opacity="1" Shininess="143" CloakAmount="0" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="Textures/zhg_textures/glass/square_glass_illum_diff.dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
     </Texture>
     <Texture Map="Bumpmap" File="Textures/zhg_textures/glass/square_glass_ddna.dds"/>
-    <Texture Map="Specular" File="Textures/zhg_textures/glass/square_glass_spec.dds"/>
-    <Texture Map="Emittance" File="Textures/zhg_textures/glass/square_glass_emiss_diff.tif"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>

@@ -1,0 +1,37 @@
+<ATLConfig atl_name="v_badboybusopen" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_badboybusopen_boost">
+   <WwiseEvent wwise_name="Play_v_hmmwv_boost"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_bump">
+   <WwiseEvent wwise_name="Play_v_hmmwv_bump"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_door_close">
+   <WwiseEvent wwise_name="Play_v_hmmwv_door_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_door_open">
+   <WwiseEvent wwise_name="Play_v_hmmwv_door_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_gear">
+   <WwiseEvent wwise_name="Play_v_hmmwv_gear"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_horn">
+   <WwiseEvent wwise_name="Play_v_hmmwv_horn"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_run">
+   <WwiseEvent wwise_name="Play_v_hmmwv_run"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_scratch">
+   <WwiseEvent wwise_name="Play_v_hmmwv_scratch"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_start">
+   <WwiseEvent wwise_name="Play_v_hmmwv_start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_badboybusopen_stop">
+   <WwiseEvent wwise_name="Play_v_hmmwv_stop"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

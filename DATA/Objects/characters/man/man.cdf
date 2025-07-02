@@ -32,6 +32,9 @@
   <Attachment Type="CA_SKIN" AName="HopefullSet_Torso" Binding="Objects/zhg_objects/characters/sets/HopefullSet/HopefullSet_Torso.skin" Material="Objects/zhg_objects/characters/sets/HopefullSet/M_HopefullSet.mtl" Flags="1"/>
   <Attachment Type="CA_BONE" AName="HopefullSet_Rifle" Binding="Objects/zhg_objects/weapons/sniper_rifle/Carabine_1.cgf" Rotation="0.66541755,0.1072988,0.18659168,0.71476561" Position="0.11132823,-0.13061121,1.1912951" BoneName="Bip01 Spine" Flags="1"/>
   <Attachment Type="CA_SKIN" AName="HopefullSet_Pants" Binding="Objects/zhg_objects/characters/sets/HopefullSet/HopefullSet_Pants.skin" Material="Objects/zhg_objects/characters/sets/HopefullSet/M_HopefullSet.mtl" Flags="1"/>
+  <Attachment Type="CA_SKIN" AName="VanityOgSet_Head" Binding="objects/zhg_objects/characters/sets/VanityOgSet/set_og_vanity.skin" Material="objects/zhg_objects/characters/sets/VanityOgSet/M_VanitySetOg.mtl" Flags="1"/>
+  <Attachment Type="CA_SKIN" AName="VanityOgSet_Torso" Binding="objects/zhg_objects/characters/sets/VanityOgSet/set_og_jacketvanity.skin" Material="objects/zhg_objects/characters/sets/VanityOgSet/M_VanitySetOg.mtl" Flags="1"/>
+  <Attachment Type="CA_SKIN" AName="VanityOgSet_Pants" Binding="objects/zhg_objects/characters/sets/VanityOgSet/set_og_sneakers.skin" Material="objects/zhg_objects/characters/sets/VanityOgSet/M_VanitySetOg.mtl" Flags="1"/>
  </AttachmentList>
  <Modifiers>
   <Element>

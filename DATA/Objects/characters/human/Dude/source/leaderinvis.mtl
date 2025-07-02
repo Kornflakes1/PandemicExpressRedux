@@ -1,0 +1,65 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+  <Material Name="mask" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+  <Material Name="SubMtl6" MtlFlags="526464" Shader="Glass" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="33" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/glass/window_streaks_glass_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/rough_glass_ddn.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0.1" Freq="0.30000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1.1799999" TintColor="1,1,1" TintCloudiness="0" BackLightScale="1" BumpScale="0.106"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

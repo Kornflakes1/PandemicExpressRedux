@@ -1,0 +1,18 @@
+<ATLConfig atl_name="w_revolver" atl_version="2">
+ <AudioTriggers>
+   <ATLTrigger atl_name="Play_w_revolver_reload_1p" path="w_revolver_handling_1p">
+   <WwiseEvent wwise_name="Play_revolver_handling_reload_fp"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioTriggers>
+   <ATLTrigger atl_name="w_revolver_fire_1p" path="w_revolver_fire_1p">
+   <WwiseEvent wwise_name="Play_revolver_fire_fp_a"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="w_revolver_hanling_1p"/>
+   <Folder name="w_revolver_fire_1p"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

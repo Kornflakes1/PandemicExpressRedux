@@ -1,0 +1,17 @@
+<ATLConfig atl_name="v_usarmyzz" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_usarmyzz_stop">
+   <SDLMixerEvent sdl_name="v_humvy_move.ogg" sdl_path="" event_type="stop"/>
+   <SDLMixerEvent sdl_name="v_humvy_stop.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_usarmyzz_start">
+   <SDLMixerEvent sdl_name="v_humvy_start.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_usarmyzz_run">
+   <SDLMixerEvent sdl_name="v_humvy_move.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="-1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

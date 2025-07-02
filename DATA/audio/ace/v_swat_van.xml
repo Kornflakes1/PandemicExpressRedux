@@ -1,0 +1,34 @@
+<ATLConfig atl_name="v_swat_van" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_swat_van_bump">
+   <WwiseEvent wwise_name="Play_v_swat_van_bump"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_run">
+   <WwiseEvent wwise_name="Play_v_swat_van_run"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_start">
+   <WwiseEvent wwise_name="Play_v_swat_van_start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_stop">
+   <WwiseEvent wwise_name="Play_v_swat_van_stop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_door_close">
+   <WwiseEvent wwise_name="Play_v_swat_van_door_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_door_open">
+   <WwiseEvent wwise_name="Play_v_swat_van_door_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_boost">
+   <WwiseEvent wwise_name="Play_v_swat_van_boost"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_gear">
+   <WwiseEvent wwise_name="Play_v_swat_van_gear"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_swat_van_horn">
+   <WwiseEvent wwise_name="Play_v_swat_van_horn"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

@@ -1,0 +1,25 @@
+<ATLConfig atl_name="br_guns" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="br_bow_pull_fp" path="br_bow">
+   <SDLMixerEvent sdl_name="br_bow_pull.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_bow_shot_fp" path="br_bow">
+   <SDLMixerEvent sdl_name="br_bow_shot.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_bow_shot_3p" path="br_bow">
+   <SDLMixerEvent sdl_name="br_bow_shot.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_bow_pull_3p" path="br_bow">
+   <SDLMixerEvent sdl_name="br_bow_pull.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_p_pro_impact_bullet_hit_head_mat_flesh">
+   <SDLMixerEvent sdl_name="p_pro_impact_bullet_impact_flesh.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-14" loop_count="1"/>
+   <SDLMixerEvent sdl_name="br_headshot.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="br_bow"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

@@ -1,15 +1,18 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="1800004000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="1800004000100" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="./txt/zb_diff.tif"/>
-    <Texture Map="Bumpmap" File="./txt/zb_ddna.tif"/>
-    <Texture Map="Specular" File="./txt/zb_spec.tif"/>
+    <Texture Map="Diffuse" File="Textures/defaults/grey.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="Textures/generic/glass/window_glass_ddn.dds"/>
+    <Texture Map="Specular" File="Textures/zhg_textures/Water/water_mud_a_spec.tif"/>
+    <Texture Map="Detail" File="Textures/generic/glass/window_glass_ddn.dds"/>
     <Texture Map="Emittance" File="./txt/zb_emiss.tif"/>
    </Textures>
-   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="0.18000001" DetailGlossScale="0"/>
   </Material>
-  <Material Name="lights" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,5000" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="lights" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,6000" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="./txt/zb_emiss.tif"/>
     <Texture Map="Emittance" File="./txt/zb_emiss.tif"/>

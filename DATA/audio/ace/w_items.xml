@@ -1,0 +1,22 @@
+<ATLConfig atl_name="w_items" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="w_items_healthpack">
+   <SDLMixerEvent sdl_name="w_items_healthpack.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="w_brickwall_destroyed">
+   <SDLMixerEvent sdl_name="w_brickwall_destroyed.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="w_items_box_break">
+   <SDLMixerEvent sdl_name="w_items_fence_break.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="w_items_fence_break">
+   <SDLMixerEvent sdl_name="l_audio_demo_sfx_bridge_wood_creak.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="w_items_wood_break">
+   <SDLMixerEvent sdl_name="w_items_wook_break.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>

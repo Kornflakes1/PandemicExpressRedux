@@ -1,0 +1,12 @@
+<ATLConfig atl_name="w_fireaxe" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="w_fireaxe_swing_3p_01.ogg" path="w_fireaxe_melee">
+   <SDLMixerEvent sdl_name="w_fireaxe_swing_3p_01.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders>
+   <Folder name="w_fireaxe_melee"/>
+  </Folders>
+ </EditorData>
+</ATLConfig>

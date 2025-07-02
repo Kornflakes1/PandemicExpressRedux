@@ -29,7 +29,7 @@
   <Attachment Type="CA_SKIN" AName="shoes" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="pants" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="gloves" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="body" Binding="Objects/zhg_objects/characters/conserve/conserve_body.skin" Material="Objects/zhg_objects/characters/conserve/M_Conserve_Phantom_Act.mtl" Flags="0"/>
+  <Attachment Type="CA_SKIN" AName="body" Binding="objects/zhg_objects/characters/phantom/conserve_phantom.skin" Material="Objects/zhg_objects/characters/conserve/M_Conserve_Phantom_Act.mtl" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="armor" Flags="0"/>
   <Attachment Type="CA_BONE" AName="hair" RelRotation="0.70640087,0.031597976,0.70639992,-0.031597976" RelPosition="0.16346169,-0.0064978004,-0.0070757866" BoneName="Bip01 Head" Flags="0"/>
   <Attachment Type="CA_BONE" AName="detonator" RelRotation="0.70745194,0,0.70676136,-0" RelPosition="0,0,-1.1641532e-09" BoneName="Bip01 Head" Flags="6"/>

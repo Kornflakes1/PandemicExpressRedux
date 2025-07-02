@@ -382,36 +382,6 @@
    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver"/>
   </idle>
   <idle_break>
-   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_03"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_02"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_02"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_03"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_idlebreak_pistol_shoulder_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="thgshotgun">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
@@ -424,7 +394,25 @@
      <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_03"/>
     </AnimLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKSmg">
+   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_02"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_03"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_02"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="stand_tac_idlebreak_rifle_shoulder_add_1p_03"/>
@@ -455,23 +443,6 @@
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Animation name="stand_tac_recoil_pistol_flag_add_1p_01"/>
     </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine+shoulder" FragTags="ammo_last1">
-    <AnimLayer />
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="WeaponRecoil">
-      <ProceduralParams>
-       <DampStrength value="25"/>
-       <FireRecoilTime value="0.050000001"/>
-       <FireRecoilStrengthFirst value="1"/>
-       <FireRecoilStrength value="0.5"/>
-       <AngleRecoilStrength value="5"/>
-       <Randomness value="5"/>
-      </ProceduralParams>
-     </Procedural>
-    </ProcLayer>
-    <ProcLayer />
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistolSMG+iron">
     <AnimLayer>
@@ -506,7 +477,7 @@
       <ProceduralParams>
        <DampStrength value="25"/>
        <FireRecoilTime value="0.050000001"/>
-       <FireRecoilStrengthFirst value="1"/>
+       <FireRecoilStrengthFirst value="2"/>
        <FireRecoilStrength value="0.5"/>
        <AngleRecoilStrength value="5"/>
        <Randomness value="5"/>
@@ -590,7 +561,7 @@
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver+iron">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="revolver_fire_iron_a_character_1p"/>
     </AnimLayer>
     <ProcLayer>
@@ -713,6 +684,12 @@
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="sniper_rifle_recoil_ch_1p_01"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="sniper_rifle_recoil_ch_1p_01"/>
+    </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="WeaponRecoil">
@@ -729,7 +706,7 @@
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.050000001"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Animation name="revolver_fire_a_character_1p"/>
     </AnimLayer>
    </Fragment>
@@ -826,7 +803,7 @@
      <Procedural type=""/>
     </ProcLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine" FragTags="ammo_empty">
+    <Fragment BlendOutDuration="0.2" Tags="SDKCarbine" FragTags="ammo_empty">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="sniper_rifle_reload_ch_1p_01"/>
@@ -855,7 +832,7 @@
      <Procedural type=""/>
     </ProcLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver" FragTags="ammo_empty">
+    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver" FragTags="ammo_empty">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Animation name="revolver_reload_character_1p"/>
@@ -973,7 +950,7 @@
      <Animation name="revolver_reload_character_1p"/>
     </AnimLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
+  <Fragment BlendOutDuration="0.2" Tags="SDKCarbine">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="sniper_rifle_reload_ch_1p_01"/>
@@ -995,7 +972,7 @@
    </Fragment>
   </reload>
   <begin_reload>
-   <Fragment BlendOutDuration="0.2" Tags="SDKSmg">
+<Fragment BlendOutDuration="0.2" Tags="SDKSmg">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="stand_tac_reloadto_rifle_add_1p_01"/>
@@ -1183,6 +1160,12 @@
      <Animation name="stand_tac_idlePose_hammer_shoulder_1p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="nw+sprint+zombi">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.30000001"/>
+     <Animation name="zb_sprint" flags="Loop"/>
+    </AnimLayer>
+   </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKSmg+shoulder+sprint">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
@@ -1354,12 +1337,6 @@
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Animation name="zb_zoom_idle" flags="Loop"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="nw+sprint+zombi">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
-     <Animation name="zb_sprint" flags="Loop"/>
     </AnimLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistolSMG+shoulder">
@@ -1670,7 +1647,7 @@
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver+shoulder">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="revolver_Idle_character_1p" flags="Loop"/>
     </AnimLayer>
    </Fragment>
@@ -1813,7 +1790,7 @@
        <poseType value="1"/>
        <zoomTransitionAngle value="28.64789"/>
        <Position>
-        <Element value="-0.096724004"/>
+        <Element value="-0.096423998"/>
         <Element value="-0.0030950001"/>
         <Element value="0.028202999"/>
        </Position>
@@ -1943,16 +1920,10 @@
      </Procedural>
     </ProcLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="nw+sprint">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.60000002"/>
-     <Animation name="man_sprint_pose_fp" flags="Loop"/>
-    </AnimLayer>
-   </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="nw">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.40000001"/>
-     <Animation name="man_sprint_pose_fp" flags="Loop"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_idle_nw_3p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="falled">
@@ -2049,7 +2020,7 @@
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="stand_tac_idle_pistol_shoulder_add_1p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
@@ -2403,7 +2374,7 @@
        <Position>
         <Element value="0"/>
         <Element value="-0.02"/>
-        <Element value="-0.050000001"/>
+        <Element value="-0.02"/>
        </Position>
        <Rotation>
         <Element value="0"/>
@@ -2498,12 +2469,6 @@
      <Animation name="stand_tac_run_proc_rifle_shoulder_add_1p_01" flags="Loop" speed="0.60000002" weight="0.2"/>
     </AnimLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="nw+sprint">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="" flags="Loop"/>
-    </AnimLayer>
-   </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistolSMG">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
@@ -2532,12 +2497,6 @@
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="stand_tac_run_proc_rifle_shoulder_add_1p_01" flags="Loop" speed="0.75" weight="0.2"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="nw">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_run_pistol_shoulder_add_1p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
   </FPMovement>
@@ -2871,21 +2830,21 @@
      </Procedural>
     </ProcLayer>
    </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
+  <Fragment BlendOutDuration="0.2" Tags="SDKRevolver">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Animation name="slide_tac_loop_pistol_aim_1p_01" flags="Loop"/>
     </AnimLayer>
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="slide_tac_aimleft_pistol_aim_add_1p_01" flags="Loop"/>
+     <Animation name="stand_tac_weaponpose_pistol_3p_01" flags="Loop"/>
     </AnimLayer>
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="slide_tac_aimright_pistol_aim_add_1p_01" flags="Loop"/>
+     <Animation name="stand_tac_run_pistol_shoulder_add_1p_01" flags="Loop"/>
     </AnimLayer>
     <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.30000001"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="ManualUpdateList">
       <ProceduralParams>
        <ParamName value="SlideFactor"/>
@@ -2922,7 +2881,7 @@
    <Fragment BlendOutDuration="0.2" Tags="nw">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="crouch_tac_idle_nw_3p_01" flags="Loop"/>
+     <Animation name="slide_tac_loop_rpg_aim_1p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
   </slide>
@@ -3301,7 +3260,9 @@
       <Blend ExitTime="0.20000005" StartTime="0" Duration="0.2"/>
      </AnimLayer>
      <AnimLayer>
-      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+      <Blend ExitTime="0" StartTime="0" Duration="0"/>
+      <Animation name="stand_tac_weaponpose_pistol_3p_01" flags="Loop"/>
+      <Blend ExitTime="0.20000005" StartTime="0" Duration="0.2"/>
      </AnimLayer>
      <AnimLayer>
       <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
@@ -3378,8 +3339,8 @@
     <Fragment BlendOutDuration="0" selectTime="0.96999979" enterTime="0">
      <AnimLayer>
       <Blend ExitTime="0" StartTime="0" Duration="0"/>
-      <Animation name="crouch_tac_idle_nw_3p_01" speed="3"/>
-      <Blend ExitTime="0.20000005" StartTime="0" Duration="0.2"/>
+      <Animation name="slide_tac_torun_rpg_aim_1p_01" speed="3"/>
+      <Blend ExitTime="-1" StartTime="0" Duration="0.2"/>
      </AnimLayer>
     </Fragment>
    </Variant>

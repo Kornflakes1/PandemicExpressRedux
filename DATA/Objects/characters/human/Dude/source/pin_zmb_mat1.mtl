@@ -1,56 +1,41 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,200" Opacity="1" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
     </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
+    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light##00_01count(0.2).dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="mask" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="mask" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.97344542,0.9046613,0.006512091" Specular="0.73046088,0.73046088,0.026241222" Emittance="0.99110222,1,0.0097212186,5000" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
+    <Texture Map="Diffuse" File="Objects/zhg_objects/characters/conserve/txt/zb_emiss.tif">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
     </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="1800004000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.66538745,0.034339812,0.043735035" Specular="0.026241222,0.026241222,0.026241222" Emittance="0.70110202,0.015996294,0.015996294,31" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
-     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
-    </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
+    <Texture Map="Diffuse" File="Objects/characters/human/Dude/Textures/D_SBT_FULL_Mask_diff.tif"/>
+    <Texture Map="Bumpmap" File="Objects/characters/human/Dude/Textures/D_SBT_FULL_Mask_ddna.tif"/>
+    <Texture Map="Specular" File="Objects/characters/human/Dude/Textures/D_SBT_FULL_Mask_spec.tif"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="SubMtl4" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="SubMtl4" MtlFlags="525474" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,59" Opacity="1" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
-     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
-    </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
+    <Texture Map="Diffuse" File="Objects/characters/human/Dude/Textures/lights_diff.tif"/>
    </Textures>
-   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,21" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
+    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light##00_01count(0.2).dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
     </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
-   </Textures>
-   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
-  </Material>
-  <Material Name="SubMtl6" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.097587354,0.097587354,0.097587354" Emittance="1,1,1,700" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Textures/zhg_textures/Anim/light/light00count.dds">
-     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" OffsetU="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VRotateCenter="1" OffsetV="0.5" TexMod_VOscillatorAmplitude="0.5" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="1.9995117"/>
-    </Texture>
-    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light00count.dds"/>
+    <Texture Map="Emittance" File="Textures/zhg_textures/Anim/light/light##00_01count(0.2).dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>

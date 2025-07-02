@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/zhg_textures/grayscale_masks/gradient_v_diff.tif"/>
+ </Textures>
+ <PublicParams StartRadius="0.43000001" EndRadius="1.6799999" StartColor="0.96468639,0.55834049,0.0074990322" EndColor="0,0,0" FinalMultiplier="0.58999997" SoftIntersectionFactor="0.34" BeamLength="3.98" viewDependencyFactor="1.04" OrigLength="0.73000002" OrigWidth="0.55000001"/>
+</Material>

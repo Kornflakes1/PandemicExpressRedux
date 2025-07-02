@@ -1,0 +1,28 @@
+<ATLConfig atl_name="br_global" atl_version="2">
+ <AudioTriggers>
+  <ATLTrigger atl_name="br_local_flesh_hit_indicator">
+   <SDLMixerEvent sdl_name="p_pro_impact_bullet_impact_flesh.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-5" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_player_bleeding">
+   <SDLMixerEvent sdl_name="c_player_fbk_effect_heartbeat.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_pickup_scrap">
+   <SDLMixerEvent sdl_name="br_pickup_item.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-5.9999967" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_pickup_ammo">
+   <SDLMixerEvent sdl_name="br_pickup_ammo.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_pickup_medkit">
+   <SDLMixerEvent sdl_name="br_pickup_item.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-0.64429528" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="br_open_lootbox">
+   <SDLMixerEvent sdl_name="br_open_lootcrate.ogg" sdl_path="" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="15" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_safezone_wave_start">
+   <SDLMixerEvent sdl_name="br_safezone_wave_start.ogg" sdl_path="" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <EditorData>
+  <Folders />
+ </EditorData>
+</ATLConfig>
