@@ -1,9 +1,0 @@
-<MetaData>
- <Gamerules MP1="InstantAction" MP2="TeamInstantAction"/>
- <MiniMap Filename="Desktop_minimap.jpg" startX="0" startY="0" endX="2048" endY="2048" width="2048" height="2048"/>
- <Attributes>
-  <loading_video value=""/>
-  <loading_image value="LoadingPolygon.dds"/>
-  <DescriptionText text="@Loading_screen_info_polygon"/>
- </Attributes>
-</MetaData>
