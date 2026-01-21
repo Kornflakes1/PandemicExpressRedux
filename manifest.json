@@ -1,0 +1,1055 @@
+{
+  "version": "1.4.1",
+  "files": [
+    {
+      "path": "ClearLogs.bat",
+      "url": "http://152.53.38.73/1.4.1/ClearLogs.bat",
+      "hash": "92ab79a6bb1e2da98c76dda603edd8b21d96868bd8768787251d4716da6bb5c6"
+    },
+    {
+      "path": "Launch_PandemicExpress.exe",
+      "url": "http://152.53.38.73/1.4.1/Launch_PandemicExpress.exe",
+      "hash": "e338ecdb21b77afbed6d36b01a10f3131784b22484d4e030b36e21bba679b0ae"
+    },
+    {
+      "path": "Launch_PandemicExpressVulkan.exe",
+      "url": "http://152.53.38.73/1.4.1/Launch_PandemicExpressVulkan.exe",
+      "hash": "a588b31ceac840b6759426af89b9bb0f52eb11f8e173fc8b589179e58cfd080d"
+    },
+    {
+      "path": "README.md",
+      "url": "http://152.53.38.73/1.4.1/README.md",
+      "hash": "564dfbb4531963b2954e5b5f99d32574f3211bf27db9220d18289582dbde7881"
+    },
+    {
+      "path": "system.cfg",
+      "url": "http://152.53.38.73/1.4.1/system.cfg",
+      "hash": "44ff6f84c23c4c8892d61a0e8047c71c8ec8b525d541f9af82143903399466ec"
+    },
+    {
+      "path": "Bin/win_x64/avutil-54.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/avutil-54.dll",
+      "hash": "541b773e09ebf9ad25b3cc72ddf8e116657df7041c8f3981eb077d87518a4708"
+    },
+    {
+      "path": "Bin/win_x64/aws-cpp-sdk-core.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/aws-cpp-sdk-core.dll",
+      "hash": "2ad75389c6c2d43508fde84325e97b2a5d5708fb8a2f200f854ce7eacc5a537d"
+    },
+    {
+      "path": "Bin/win_x64/aws-cpp-sdk-gamelift.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/aws-cpp-sdk-gamelift.dll",
+      "hash": "761c38d6cb288ea8a09fb67a8102f83ccfed8b0dcb35473ed7c1577bcf4a3591"
+    },
+    {
+      "path": "Bin/win_x64/CEVPlayer.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CEVPlayer.dll",
+      "hash": "3e0afbac75f0920344c946fec806e073432060902caf3e9c2c306fb849086194"
+    },
+    {
+      "path": "Bin/win_x64/concrt140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/concrt140.dll",
+      "hash": "511aba3d00b9925e7bc64e2132d77a76c1fd9e9d200ec0ef864b7a0f00c68995"
+    },
+    {
+      "path": "Bin/win_x64/cpprest140_2_9.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/cpprest140_2_9.dll",
+      "hash": "c09995556796cade0c2587f74a7af4aaf5399673fe598296b5d19513fe7c32ae"
+    },
+    {
+      "path": "Bin/win_x64/crashrpt_lang.ini",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/crashrpt_lang.ini",
+      "hash": "e4429bfb2e5ddee4f2e7a260e1b9d91f30abe082b0b7a69a82e6b70ad1d1a172"
+    },
+    {
+      "path": "Bin/win_x64/CrashSender1403.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CrashSender1403.exe",
+      "hash": "f204022b9f80338ff2487ab1bdbef25907016362de15afd54c826b091285d4b7"
+    },
+    {
+      "path": "Bin/win_x64/Cry3DEngine.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/Cry3DEngine.dll",
+      "hash": "c41faa4e62069b21ecc15150f5789ad6c7f7053a842b9b7a6befa8e80da82053"
+    },
+    {
+      "path": "Bin/win_x64/CryAction.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryAction.dll",
+      "hash": "e9272bea1c02b283bc466c897f3997fb1f213452a6d18344b64ae766c369c81a"
+    },
+    {
+      "path": "Bin/win_x64/CryAISystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryAISystem.dll",
+      "hash": "c0db869851d341fa42def287d3a3f53a01ff4834ebcfd64737782ad435127fbe"
+    },
+    {
+      "path": "Bin/win_x64/CryAnimation.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryAnimation.dll",
+      "hash": "b69be9ddca06591d8b2a28ad536ab616571e5b538a8136ddaf9ac115b122f5b7"
+    },
+    {
+      "path": "Bin/win_x64/CryAudioImplWwise.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryAudioImplWwise.dll",
+      "hash": "f9f9dafa6e75ed603e9c8c20a2d5b05a8a766b1e9e4b7c3a4bf3091829f97097"
+    },
+    {
+      "path": "Bin/win_x64/CryAudioSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryAudioSystem.dll",
+      "hash": "01ea6e8e5b51c8c17dbf8ad3f361c97d05aa329d1ef0fea0dbc5e988b5d4e196"
+    },
+    {
+      "path": "Bin/win_x64/CryDefaultEntities.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryDefaultEntities.dll",
+      "hash": "deeab66d5786b885efcf6152e00d7c334e66f3a889f299ebb4124cde83898d85"
+    },
+    {
+      "path": "Bin/win_x64/CryDynamicResponseSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryDynamicResponseSystem.dll",
+      "hash": "87edd04ed64cd40ee867b2f7c4994aee64aade7a11cc53ddc33a3e14978c9f9f"
+    },
+    {
+      "path": "Bin/win_x64/CryEntitySystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryEntitySystem.dll",
+      "hash": "488679f04849536537a38d2deabc1fd97da30f3e909408b4b8bf4fff284c2604"
+    },
+    {
+      "path": "Bin/win_x64/CryFont.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryFont.dll",
+      "hash": "fc1b3ebe6149e04946dbcceb5ded783ad6b1f10c18ef99c68b1bcaa986f96f69"
+    },
+    {
+      "path": "Bin/win_x64/CryInput.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryInput.dll",
+      "hash": "3e177e9c47e38e66603c0301d58ee6a70bb29cefe5ac4eaea6832d1d6e2612a8"
+    },
+    {
+      "path": "Bin/win_x64/CryLiveCreate.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryLiveCreate.dll",
+      "hash": "428974aac64ac5d7e889de9b628c645190f53ed42ac62c5aa227cea05a66d2f2"
+    },
+    {
+      "path": "Bin/win_x64/CryLobby.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryLobby.dll",
+      "hash": "6d67e958994b1b0c63f90eb1303bf6eb57c3bbf34cb7dd00622e86be2264789d"
+    },
+    {
+      "path": "Bin/win_x64/CryMovie.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryMovie.dll",
+      "hash": "207e2694004cc3c1227aa27d2322b23267ba01e05716e54bb6e3aef267983ed8"
+    },
+    {
+      "path": "Bin/win_x64/CryNetwork.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryNetwork.dll",
+      "hash": "64f964a0750fe249ccf07ea18559089ded240ce3c14c687fd5b23c2c70bb9fc4"
+    },
+    {
+      "path": "Bin/win_x64/CryPhysics.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryPhysics.dll",
+      "hash": "c2592ee5fca4e83ae36697d07552db51855168f8a1db015f38e4ef2a6fe0d13b"
+    },
+    {
+      "path": "Bin/win_x64/CryRenderD3D11.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryRenderD3D11.dll",
+      "hash": "288e9998b987430a10f2cb42690cba650c25dc238260fa86e175e1afc624380c"
+    },
+    {
+      "path": "Bin/win_x64/CryScaleformHelper.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryScaleformHelper.dll",
+      "hash": "cd3bbbc88f66fee1294e4772a38dd1335ff97fc83b3a73b08af92b6912d4987e"
+    },
+    {
+      "path": "Bin/win_x64/CryScriptSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryScriptSystem.dll",
+      "hash": "296c910c00f08cb3ee8bed65652cee7c7d6f05466323a047105a1de332a10b26"
+    },
+    {
+      "path": "Bin/win_x64/CrySystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CrySystem.dll",
+      "hash": "d2b9fde95aaedd0bce325fb0428e15ac62ca38da66f696851e218320adbb5e75"
+    },
+    {
+      "path": "Bin/win_x64/CryUQS_Core.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/CryUQS_Core.dll",
+      "hash": "09394ed892d78285995a916a4d4853070b9ab32736ee1f8f074434b0019aec5c"
+    },
+    {
+      "path": "Bin/win_x64/d3dcompiler_47.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/d3dcompiler_47.dll",
+      "hash": "9aad4901ea71d3c28dc1aff593aaf39a121e4ed214bb57b06129e784a8d2ee60"
+    },
+    {
+      "path": "Bin/win_x64/dbgcore.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/dbgcore.dll",
+      "hash": "10532137f304b8db7cdd7ea480696872a6deed3fbacc4bfc190cd26135d0d454"
+    },
+    {
+      "path": "Bin/win_x64/dbghelp.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/dbghelp.dll",
+      "hash": "56824a8998fcade218efb541ec27e32c997be7ce70b4a515390fa94c4de46fbd"
+    },
+    {
+      "path": "Bin/win_x64/icudt56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/icudt56.dll",
+      "hash": "166b37b3870dd9d5584afa13e6c630f4c926bad0b0fc4fc64eb260f66dee43bc"
+    },
+    {
+      "path": "Bin/win_x64/icuin56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/icuin56.dll",
+      "hash": "aaba1c4cc1992eaa93f3f2aa134baa1814fadcb4b149770841e19dc3326c020a"
+    },
+    {
+      "path": "Bin/win_x64/icuuc56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/icuuc56.dll",
+      "hash": "5368ddbae581dff4fca479f50900dcbdb9bab05c722667ee7a83aa52cfd386e6"
+    },
+    {
+      "path": "Bin/win_x64/libEGL.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/libEGL.dll",
+      "hash": "77689c7ef2222671f98e8c7eedb0ea7a3b0e4267e80077024c003e5c119cfbb5"
+    },
+    {
+      "path": "Bin/win_x64/libGLESv2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/libGLESv2.dll",
+      "hash": "4c1571a80af7b19f0515d616cda03fbc15fedf2f01512c2aee280540fbf64209"
+    },
+    {
+      "path": "Bin/win_x64/LuaCompiler.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/LuaCompiler.exe",
+      "hash": "1dc61cc3b416d61da9dccdd643a1edbde420a1e4ac210b3b781f32ab6683b940"
+    },
+    {
+      "path": "Bin/win_x64/mfc140chs.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140chs.dll",
+      "hash": "8d1124045354e5756851e2085007c1a90af9ab863a0f90ee5f1010c52078148b"
+    },
+    {
+      "path": "Bin/win_x64/mfc140cht.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140cht.dll",
+      "hash": "4771e7c8ff22b9fcbcc65c39724e60042635a423fa5ae601810bf58134e313a4"
+    },
+    {
+      "path": "Bin/win_x64/mfc140deu.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140deu.dll",
+      "hash": "915f54937f933ef321207925c2570dab78b9c9c7a30a96647cf5ab44ba003da7"
+    },
+    {
+      "path": "Bin/win_x64/mfc140enu.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140enu.dll",
+      "hash": "973deedf9db22e30c6f04228823e056555cd6f8741977b507713d6881e30127c"
+    },
+    {
+      "path": "Bin/win_x64/mfc140esn.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140esn.dll",
+      "hash": "93110d226026e93433bc9e89f752d5059f094f51d4fb5512409be1d7de596c2a"
+    },
+    {
+      "path": "Bin/win_x64/mfc140fra.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140fra.dll",
+      "hash": "4d2af407fcc9875b8ff9b48b437c87ea33d5cc8d2bf048751eea4fd09ef6698b"
+    },
+    {
+      "path": "Bin/win_x64/mfc140ita.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140ita.dll",
+      "hash": "cf5a39f4c5b5ab5487aa1f73b4ec2342148bae2e96a0bdcb94871e4201fd9745"
+    },
+    {
+      "path": "Bin/win_x64/mfc140jpn.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140jpn.dll",
+      "hash": "29300bfe7d3dbcca60ec30c43d984f944151ddec914f258ab24787297ebb9f1c"
+    },
+    {
+      "path": "Bin/win_x64/mfc140kor.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140kor.dll",
+      "hash": "5be6cf1e3fbcd9fb31037a722d541f7c2a2a7bc4f4acdf4552023ba3eeb4e500"
+    },
+    {
+      "path": "Bin/win_x64/mfc140rus.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140rus.dll",
+      "hash": "fa852dd29f1fbdf778b9d88f771d2ab9851371909888dda0e7a659d9f054c368"
+    },
+    {
+      "path": "Bin/win_x64/mfc140u.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfc140u.dll",
+      "hash": "52512da1ef3fb1b1d5f63599a37c42baaf63deb0c74f843bbc221ad96bd10c59"
+    },
+    {
+      "path": "Bin/win_x64/mfcm140u.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/mfcm140u.dll",
+      "hash": "fa2c614c9a22c97ab4a60ac2726ddbfd2b0d529c4e4581b080b968b8f74f9587"
+    },
+    {
+      "path": "Bin/win_x64/msvcp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/msvcp140.dll",
+      "hash": "517cd3aac2177a357cca6032f07ad7360ee8ca212a02dd6e1301bf6cfade2094"
+    },
+    {
+      "path": "Bin/win_x64/PandemicExpress.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/PandemicExpress.exe",
+      "hash": "525dc6113ddf4af0ccf48e01f93fceee3574bece6e7e53d6585d18c956dc8f1e"
+    },
+    {
+      "path": "Bin/win_x64/PlayFab.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/PlayFab.dll",
+      "hash": "64485a3e3b33be2c822cdadc023157b4ed511eed80d1b3dcbefad395ce1e1ff4"
+    },
+    {
+      "path": "Bin/win_x64/PlayFabDedicated.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/PlayFabDedicated.dll",
+      "hash": "2e0695d5494a1608f887d6b9f0953779c4dc877d58174c5b3f89a9b9cfdb08e3"
+    },
+    {
+      "path": "Bin/win_x64/portaudio_x64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/portaudio_x64.dll",
+      "hash": "9d2db34be86520a2d1c57693c7c5dc205ddead33f5d748cb7c5d6bf1525d96bc"
+    },
+    {
+      "path": "Bin/win_x64/ProcAnRandGenerator.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/ProcAnRandGenerator.dll",
+      "hash": "6faeacbcf666fa407891a834f867d51e3aef53ef25da4670a3feed0c86f66bad"
+    },
+    {
+      "path": "Bin/win_x64/ProfilerCore64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/ProfilerCore64.dll",
+      "hash": "8b48a56dc285fcda4234319e510d18f7667ef98ed979ea21097a64cc5c3f9d0a"
+    },
+    {
+      "path": "Bin/win_x64/SDL2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/SDL2.dll",
+      "hash": "20eb366e76d04cef2cf38ff4d4d7a7dcbfb75c6b50281960a49861f847561e54"
+    },
+    {
+      "path": "Bin/win_x64/ShaderCacheGen.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/ShaderCacheGen.exe",
+      "hash": "c13cd85c428dd0649c276a866f8dec482c5f31d87b55fafa3cacad7ab844d57d"
+    },
+    {
+      "path": "Bin/win_x64/SimpleMPNetworkSyncLibrary.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/SimpleMPNetworkSyncLibrary.dll",
+      "hash": "bb91880d4141155402b74d7f8c486805dc96276f9fe4ea0d2cee0c481b344d15"
+    },
+    {
+      "path": "Bin/win_x64/smpeg2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/smpeg2.dll",
+      "hash": "3d6e8a8fb64a4aca2e8467ff5894854ff6385443d3da8ffa6a916764b595a626"
+    },
+    {
+      "path": "Bin/win_x64/steam_api64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/steam_api64.dll",
+      "hash": "2197363bfcf05fbdee84afd7dec6d58721587cb3dbf57c0f02b38e82c5cb5d41"
+    },
+    {
+      "path": "Bin/win_x64/steam_appid.txt",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/steam_appid.txt",
+      "hash": "6c8fc0c5f7843a21629d280b763c2ccc9de5f1c69a8ee1556f07449a12207c18"
+    },
+    {
+      "path": "Bin/win_x64/swscale-3.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/swscale-3.dll",
+      "hash": "0bbd454d428fb6af13a285589c9f1c2201b654cbe4ec701f1a57975cd1e00fea"
+    },
+    {
+      "path": "Bin/win_x64/TheHunting.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/TheHunting.dll",
+      "hash": "c1c46a33d9b49bbd32107adad425d0aa52f6164fc470bde38a9c5d3d5ff6fd8d"
+    },
+    {
+      "path": "Bin/win_x64/vcamp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/vcamp140.dll",
+      "hash": "7867d8d8baf42d70395d20c73e3ef7587dfaa2b7d928ace0cac388ef87bd8907"
+    },
+    {
+      "path": "Bin/win_x64/vccorlib140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/vccorlib140.dll",
+      "hash": "8a442077df17ac412be9072a91e4b2b39a69f1aed189034d34fdd79956d3d6b6"
+    },
+    {
+      "path": "Bin/win_x64/vcomp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/vcomp140.dll",
+      "hash": "5fc1d087402556529319e412d599ae445845cca97d620fd4efc762632cb3dd28"
+    },
+    {
+      "path": "Bin/win_x64/vcruntime140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64/vcruntime140.dll",
+      "hash": "d89c7b863fc1ac3a179d45d5fe1b9fd35fb6fbd45171ca68d0d68ab1c1ad04fb"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/avutil-54.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/avutil-54.dll",
+      "hash": "541b773e09ebf9ad25b3cc72ddf8e116657df7041c8f3981eb077d87518a4708"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/aws-cpp-sdk-core.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/aws-cpp-sdk-core.dll",
+      "hash": "2ad75389c6c2d43508fde84325e97b2a5d5708fb8a2f200f854ce7eacc5a537d"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/aws-cpp-sdk-gamelift.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/aws-cpp-sdk-gamelift.dll",
+      "hash": "761c38d6cb288ea8a09fb67a8102f83ccfed8b0dcb35473ed7c1577bcf4a3591"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CEVPlayer.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CEVPlayer.dll",
+      "hash": "3e0afbac75f0920344c946fec806e073432060902caf3e9c2c306fb849086194"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/concrt140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/concrt140.dll",
+      "hash": "511aba3d00b9925e7bc64e2132d77a76c1fd9e9d200ec0ef864b7a0f00c68995"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/cpprest140_2_9.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/cpprest140_2_9.dll",
+      "hash": "c09995556796cade0c2587f74a7af4aaf5399673fe598296b5d19513fe7c32ae"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/crashrpt_lang.ini",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/crashrpt_lang.ini",
+      "hash": "e4429bfb2e5ddee4f2e7a260e1b9d91f30abe082b0b7a69a82e6b70ad1d1a172"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CrashSender1403.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CrashSender1403.exe",
+      "hash": "f204022b9f80338ff2487ab1bdbef25907016362de15afd54c826b091285d4b7"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/Cry3DEngine.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/Cry3DEngine.dll",
+      "hash": "c41faa4e62069b21ecc15150f5789ad6c7f7053a842b9b7a6befa8e80da82053"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryAction.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryAction.dll",
+      "hash": "e9272bea1c02b283bc466c897f3997fb1f213452a6d18344b64ae766c369c81a"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryAISystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryAISystem.dll",
+      "hash": "c0db869851d341fa42def287d3a3f53a01ff4834ebcfd64737782ad435127fbe"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryAnimation.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryAnimation.dll",
+      "hash": "b69be9ddca06591d8b2a28ad536ab616571e5b538a8136ddaf9ac115b122f5b7"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryAudioImplWwise.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryAudioImplWwise.dll",
+      "hash": "f9f9dafa6e75ed603e9c8c20a2d5b05a8a766b1e9e4b7c3a4bf3091829f97097"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryAudioSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryAudioSystem.dll",
+      "hash": "01ea6e8e5b51c8c17dbf8ad3f361c97d05aa329d1ef0fea0dbc5e988b5d4e196"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryDefaultEntities.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryDefaultEntities.dll",
+      "hash": "deeab66d5786b885efcf6152e00d7c334e66f3a889f299ebb4124cde83898d85"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryDynamicResponseSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryDynamicResponseSystem.dll",
+      "hash": "87edd04ed64cd40ee867b2f7c4994aee64aade7a11cc53ddc33a3e14978c9f9f"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryEntitySystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryEntitySystem.dll",
+      "hash": "488679f04849536537a38d2deabc1fd97da30f3e909408b4b8bf4fff284c2604"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryFont.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryFont.dll",
+      "hash": "fc1b3ebe6149e04946dbcceb5ded783ad6b1f10c18ef99c68b1bcaa986f96f69"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryInput.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryInput.dll",
+      "hash": "3e177e9c47e38e66603c0301d58ee6a70bb29cefe5ac4eaea6832d1d6e2612a8"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryLiveCreate.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryLiveCreate.dll",
+      "hash": "428974aac64ac5d7e889de9b628c645190f53ed42ac62c5aa227cea05a66d2f2"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryLobby.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryLobby.dll",
+      "hash": "6d67e958994b1b0c63f90eb1303bf6eb57c3bbf34cb7dd00622e86be2264789d"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryMovie.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryMovie.dll",
+      "hash": "207e2694004cc3c1227aa27d2322b23267ba01e05716e54bb6e3aef267983ed8"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryNetwork.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryNetwork.dll",
+      "hash": "64f964a0750fe249ccf07ea18559089ded240ce3c14c687fd5b23c2c70bb9fc4"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryPhysics.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryPhysics.dll",
+      "hash": "c2592ee5fca4e83ae36697d07552db51855168f8a1db015f38e4ef2a6fe0d13b"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryRenderD3D11.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryRenderD3D11.dll",
+      "hash": "288e9998b987430a10f2cb42690cba650c25dc238260fa86e175e1afc624380c"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryScaleformHelper.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryScaleformHelper.dll",
+      "hash": "cd3bbbc88f66fee1294e4772a38dd1335ff97fc83b3a73b08af92b6912d4987e"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryScriptSystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryScriptSystem.dll",
+      "hash": "296c910c00f08cb3ee8bed65652cee7c7d6f05466323a047105a1de332a10b26"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CrySystem.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CrySystem.dll",
+      "hash": "d2b9fde95aaedd0bce325fb0428e15ac62ca38da66f696851e218320adbb5e75"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/CryUQS_Core.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/CryUQS_Core.dll",
+      "hash": "09394ed892d78285995a916a4d4853070b9ab32736ee1f8f074434b0019aec5c"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/d3d11.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/d3d11.dll",
+      "hash": "c373241f40f465f762e15a3bf53c236585bfae755e6d8eaadad091c8bcd15c55"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/d3dcompiler_47.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/d3dcompiler_47.dll",
+      "hash": "9aad4901ea71d3c28dc1aff593aaf39a121e4ed214bb57b06129e784a8d2ee60"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/dbgcore.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/dbgcore.dll",
+      "hash": "10532137f304b8db7cdd7ea480696872a6deed3fbacc4bfc190cd26135d0d454"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/dbghelp.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/dbghelp.dll",
+      "hash": "56824a8998fcade218efb541ec27e32c997be7ce70b4a515390fa94c4de46fbd"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/dxgi.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/dxgi.dll",
+      "hash": "a5c3fa8b51559c77e9046a7c530b734eaf4a4d8a6f3d66edaa6375264bd3f4e9"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/icudt56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/icudt56.dll",
+      "hash": "166b37b3870dd9d5584afa13e6c630f4c926bad0b0fc4fc64eb260f66dee43bc"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/icuin56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/icuin56.dll",
+      "hash": "aaba1c4cc1992eaa93f3f2aa134baa1814fadcb4b149770841e19dc3326c020a"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/icuuc56.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/icuuc56.dll",
+      "hash": "5368ddbae581dff4fca479f50900dcbdb9bab05c722667ee7a83aa52cfd386e6"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/libEGL.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/libEGL.dll",
+      "hash": "77689c7ef2222671f98e8c7eedb0ea7a3b0e4267e80077024c003e5c119cfbb5"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/libGLESv2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/libGLESv2.dll",
+      "hash": "4c1571a80af7b19f0515d616cda03fbc15fedf2f01512c2aee280540fbf64209"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/LuaCompiler.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/LuaCompiler.exe",
+      "hash": "1dc61cc3b416d61da9dccdd643a1edbde420a1e4ac210b3b781f32ab6683b940"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140chs.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140chs.dll",
+      "hash": "8d1124045354e5756851e2085007c1a90af9ab863a0f90ee5f1010c52078148b"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140cht.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140cht.dll",
+      "hash": "4771e7c8ff22b9fcbcc65c39724e60042635a423fa5ae601810bf58134e313a4"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140deu.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140deu.dll",
+      "hash": "915f54937f933ef321207925c2570dab78b9c9c7a30a96647cf5ab44ba003da7"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140enu.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140enu.dll",
+      "hash": "973deedf9db22e30c6f04228823e056555cd6f8741977b507713d6881e30127c"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140esn.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140esn.dll",
+      "hash": "93110d226026e93433bc9e89f752d5059f094f51d4fb5512409be1d7de596c2a"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140fra.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140fra.dll",
+      "hash": "4d2af407fcc9875b8ff9b48b437c87ea33d5cc8d2bf048751eea4fd09ef6698b"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140ita.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140ita.dll",
+      "hash": "cf5a39f4c5b5ab5487aa1f73b4ec2342148bae2e96a0bdcb94871e4201fd9745"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140jpn.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140jpn.dll",
+      "hash": "29300bfe7d3dbcca60ec30c43d984f944151ddec914f258ab24787297ebb9f1c"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140kor.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140kor.dll",
+      "hash": "5be6cf1e3fbcd9fb31037a722d541f7c2a2a7bc4f4acdf4552023ba3eeb4e500"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140rus.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140rus.dll",
+      "hash": "fa852dd29f1fbdf778b9d88f771d2ab9851371909888dda0e7a659d9f054c368"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfc140u.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfc140u.dll",
+      "hash": "52512da1ef3fb1b1d5f63599a37c42baaf63deb0c74f843bbc221ad96bd10c59"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/mfcm140u.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/mfcm140u.dll",
+      "hash": "fa2c614c9a22c97ab4a60ac2726ddbfd2b0d529c4e4581b080b968b8f74f9587"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/msvcp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/msvcp140.dll",
+      "hash": "517cd3aac2177a357cca6032f07ad7360ee8ca212a02dd6e1301bf6cfade2094"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/PandemicExpress.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/PandemicExpress.exe",
+      "hash": "525dc6113ddf4af0ccf48e01f93fceee3574bece6e7e53d6585d18c956dc8f1e"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/PlayFab.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/PlayFab.dll",
+      "hash": "64485a3e3b33be2c822cdadc023157b4ed511eed80d1b3dcbefad395ce1e1ff4"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/PlayFabDedicated.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/PlayFabDedicated.dll",
+      "hash": "2e0695d5494a1608f887d6b9f0953779c4dc877d58174c5b3f89a9b9cfdb08e3"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/portaudio_x64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/portaudio_x64.dll",
+      "hash": "9d2db34be86520a2d1c57693c7c5dc205ddead33f5d748cb7c5d6bf1525d96bc"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/ProcAnRandGenerator.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/ProcAnRandGenerator.dll",
+      "hash": "6faeacbcf666fa407891a834f867d51e3aef53ef25da4670a3feed0c86f66bad"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/ProfilerCore64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/ProfilerCore64.dll",
+      "hash": "8b48a56dc285fcda4234319e510d18f7667ef98ed979ea21097a64cc5c3f9d0a"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/SDL2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/SDL2.dll",
+      "hash": "20eb366e76d04cef2cf38ff4d4d7a7dcbfb75c6b50281960a49861f847561e54"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/ShaderCacheGen.exe",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/ShaderCacheGen.exe",
+      "hash": "c13cd85c428dd0649c276a866f8dec482c5f31d87b55fafa3cacad7ab844d57d"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/SimpleMPNetworkSyncLibrary.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/SimpleMPNetworkSyncLibrary.dll",
+      "hash": "bb91880d4141155402b74d7f8c486805dc96276f9fe4ea0d2cee0c481b344d15"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/smpeg2.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/smpeg2.dll",
+      "hash": "3d6e8a8fb64a4aca2e8467ff5894854ff6385443d3da8ffa6a916764b595a626"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/steam_api64.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/steam_api64.dll",
+      "hash": "2197363bfcf05fbdee84afd7dec6d58721587cb3dbf57c0f02b38e82c5cb5d41"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/steam_appid.txt",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/steam_appid.txt",
+      "hash": "6c8fc0c5f7843a21629d280b763c2ccc9de5f1c69a8ee1556f07449a12207c18"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/swscale-3.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/swscale-3.dll",
+      "hash": "0bbd454d428fb6af13a285589c9f1c2201b654cbe4ec701f1a57975cd1e00fea"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/TheHunting.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/TheHunting.dll",
+      "hash": "c1c46a33d9b49bbd32107adad425d0aa52f6164fc470bde38a9c5d3d5ff6fd8d"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/vcamp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/vcamp140.dll",
+      "hash": "7867d8d8baf42d70395d20c73e3ef7587dfaa2b7d928ace0cac388ef87bd8907"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/vccorlib140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/vccorlib140.dll",
+      "hash": "8a442077df17ac412be9072a91e4b2b39a69f1aed189034d34fdd79956d3d6b6"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/vcomp140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/vcomp140.dll",
+      "hash": "5fc1d087402556529319e412d599ae445845cca97d620fd4efc762632cb3dd28"
+    },
+    {
+      "path": "Bin/win_x64_vulkan/vcruntime140.dll",
+      "url": "http://152.53.38.73/1.4.1/Bin/win_x64_vulkan/vcruntime140.dll",
+      "hash": "d89c7b863fc1ac3a179d45d5fe1b9fd35fb6fbd45171ca68d0d68ab1c1ad04fb"
+    },
+    {
+      "path": "DATA/Gamedata.pak",
+      "url": "http://152.53.38.73/1.4.1/DATA/Gamedata.pak",
+      "hash": "372f89fd57a8185abc8a38400ba49c9071ab24f65bf9c928a4a3ebf318675e49"
+    },
+    {
+      "path": "DATA/Animations/Mannequin/ADB/playerAnims1P.adb",
+      "url": "http://152.53.38.73/1.4.1/DATA/Animations/Mannequin/ADB/playerAnims1P.adb",
+      "hash": "e55f262b80d793ca25905bd564dd22fbd61e9d41607f020940d9ac02e041e816"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/filelist.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/filelist.xml",
+      "hash": "dca68885edcd59e792a6aa6b7bb5c36cb2717ce53c83ae129d9033161a8fa062"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/level.cfg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/level.cfg",
+      "hash": "fef59b4465e4e87a63b225995b64871001f9ced89b80faef93dbc8d33bc33694"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/level.pak",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/level.pak",
+      "hash": "6a55c4d916d467eaec94b3c45e15e289ee971b242a766262b30d332c486f1909"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/Purgatorium_Esc.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/Purgatorium_Esc.xml",
+      "hash": "c82e31a503ce6a03a3a4229cfa4d02dde441fbcdcbe4c8c17d4c1ceabd73f182"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/Purgatorium_Esc_138_NS.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/Purgatorium_Esc_138_NS.xml",
+      "hash": "c82e31a503ce6a03a3a4229cfa4d02dde441fbcdcbe4c8c17d4c1ceabd73f182"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/purgatorium_minimap2.jpg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/purgatorium_minimap2.jpg",
+      "hash": "1c66694bedca6182434dce1ec8eae4e77528af3247f2b206c657f2296f618180"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/purgatorium_minimap2_11blc.jpg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/purgatorium_minimap2_11blc.jpg",
+      "hash": "7189326aaed9ddf703903f2e2324d97dfcc9d3bf3328d91fde4471cf2af7ba74"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tags.json",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tags.json",
+      "hash": "513c8b71a194f25ef718bc32ee5b936540eaee12fbd6415e4f7b94bdd85a4500"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tags.txt",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tags.txt",
+      "hash": "ec7104e1fed231fe076992034ae05bcfd11822ec1c901d5159ccff95c6068cf0"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/terraintexture.pak",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/terraintexture.pak",
+      "hash": "41ff45505a254979e95279a8fb73855f1d9217e479cf450ec8377e82766eac19"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_l (Tall Boys's conflicted copy 2019-07-28).xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_l%20%28Tall%20Boys%27s%20conflicted%20copy%202019-07-28%29.xml",
+      "hash": "8a2af506d8df4eb6cf15d0e405832bf9a709dda38c5256a6755bd5fad60d8dcb"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_l.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_l.xml",
+      "hash": "9751f4356f40119b345674d7eb04bf98429374b9730b8018beb12d5f79e90cc0"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_m.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_cloudy_m.xml",
+      "hash": "b4c682d8dcdf6965e605c1d41c87ba8bae7228520b4d212f21e460497be08982"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_zombie_a.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc/tod_purgatorium_zombie_a.xml",
+      "hash": "2855255b54258ae514cc44db7825ef391d9bd0fba83793e746658e7c3f395548"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/filelist.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/filelist.xml",
+      "hash": "d151ebc36f0595a69ad68835a1437980fa6d5e68dcbbef6fa7b86205f62a9f29"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/level.cfg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/level.cfg",
+      "hash": "f9025fa6944536bb100cd22d21dc6b3b06ed32724ed8731cd501a9baa433d00a"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/level.pak",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/level.pak",
+      "hash": "49f14fcc99256ec0e45457996cbe5bc975e3f57cc707820bd59fc0035404fc82"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/Purgatorium_Esc_Cw.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/Purgatorium_Esc_Cw.xml",
+      "hash": "c82e31a503ce6a03a3a4229cfa4d02dde441fbcdcbe4c8c17d4c1ceabd73f182"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/purgatorium_minimap2.jpg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/purgatorium_minimap2.jpg",
+      "hash": "1c66694bedca6182434dce1ec8eae4e77528af3247f2b206c657f2296f618180"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/purgatorium_minimap2_11blc.jpg",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/purgatorium_minimap2_11blc.jpg",
+      "hash": "7189326aaed9ddf703903f2e2324d97dfcc9d3bf3328d91fde4471cf2af7ba74"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/screenshotmap.settings",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/screenshotmap.settings",
+      "hash": "14f40fca06a43b5b4dd8fce0e7290b948ba7563456840c92c6a62613caf2fc45"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/tags.json",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/tags.json",
+      "hash": "8d4bb2ebb8ada4c0255eedbe649fd95594dab7e9f5cda652d9d0b1971e0711e3"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/tags.txt",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/tags.txt",
+      "hash": "05931497f757f42a913aafd81d56340afcdeb67c1b22b3c4080dda1b6c38e6cd"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/terraintexture.pak",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/terraintexture.pak",
+      "hash": "7bb5671359f7477338cf622884dba68fde4b857885b21af019475bc22f37c546"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/tod_purgatorium_cloudy_l.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/tod_purgatorium_cloudy_l.xml",
+      "hash": "9751f4356f40119b345674d7eb04bf98429374b9730b8018beb12d5f79e90cc0"
+    },
+    {
+      "path": "DATA/levels/multiplayer/Purgatorium_Esc_Cw/tod_purgatorium_zombie_a.xml",
+      "url": "http://152.53.38.73/1.4.1/DATA/levels/multiplayer/Purgatorium_Esc_Cw/tod_purgatorium_zombie_a.xml",
+      "hash": "2855255b54258ae514cc44db7825ef391d9bd0fba83793e746658e7c3f395548"
+    },
+    {
+      "path": "DATA/Objects/characters/human/Dude/source/leaderinvis.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/Dude/source/leaderinvis.mtl",
+      "hash": "ff2257f944a13ed39d931a6a294f597f85837a48f4cd738f2df73ce2b4dafcd7"
+    },
+    {
+      "path": "DATA/Objects/characters/human/Dude/source/pin_zmb_inv_a.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/Dude/source/pin_zmb_inv_a.mtl",
+      "hash": "7ffb843e4c72100f3739fab94571133df8a8fa54710a6b1b7e28862b10cb09d5"
+    },
+    {
+      "path": "DATA/Objects/characters/human/Dude/source/pin_zmb_inv_a_fp.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/Dude/source/pin_zmb_inv_a_fp.mtl",
+      "hash": "438bb4fbbeaed383e5de8c66b820f03315100e59578b611515088b349c198066"
+    },
+    {
+      "path": "DATA/Objects/characters/human/Dude/source/pin_zmb_inv_b.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/Dude/source/pin_zmb_inv_b.mtl",
+      "hash": "7229662e3d19eebde1ec953d5caf9b7bf5bba351865320a73d6427d54d5dbb57"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb.cdf",
+      "hash": "1f61df8a05063402f8b3fd606580c0d4fc6255eae47ed334e0f911f8ad9a125d"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb2.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb2.cdf",
+      "hash": "ed283350ed04a91a9e87eb36152e6dcc40feb1da3ea69517d8bcc5245cf910bd"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_bomber.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_bomber.cdf",
+      "hash": "7dc668f1d27e7fe26aa0ab59f2da82a985337ac53b51ac4325402aa5da5368c0"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_bomber_remote.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_bomber_remote.cdf",
+      "hash": "7388d6bd52c6b38fc6628339d03077b9ce5e5998c6e67e6ba359d754c30a15e4"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_conductor.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_conductor.cdf",
+      "hash": "38b4f43ccf61cbabc7f730cf7bd8a24a75eebfbbf303b353ab8ceff70219e360"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_inv.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_inv.cdf",
+      "hash": "c0fb055967e637462b529f6d6936bb6df1724cbc64a6a7282bad0178e8e41f84"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_inv_active.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_inv_active.cdf",
+      "hash": "d2f4b94b688532e3009947e5e83003be81e6d01d9eba25d4c2c7317f79ec5aad"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_inv_remote.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_inv_remote.cdf",
+      "hash": "18d2f6acf9f6fd00a4baea749193d6c2e21b4717db83ba4db787edcaca879fbb"
+    },
+    {
+      "path": "DATA/Objects/characters/human/zombeee/man_zmb_inv_remote_active.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/human/zombeee/man_zmb_inv_remote_active.cdf",
+      "hash": "04ab994092a4e0be97f6c013b417c3aa5c86c5b55fe1504734a160b5d0e3acba"
+    },
+    {
+      "path": "DATA/Objects/characters/man/man.cdf",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/characters/man/man.cdf",
+      "hash": "7c2bae74ef8bf462e26b212dc614dd29c083e181d1a2daba8b0285bcf44dac1e"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/conserve/conserve_bodyMain.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/conserve/conserve_bodyMain.skin",
+      "hash": "47e446bc717a30095c8c77ed8a3c112a92446a03dfbf577d56f79de7548ad366"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/conserve/Conserve_FP_NonMM.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/conserve/Conserve_FP_NonMM.skin",
+      "hash": "09ac6d6f04ac96ff16be917deb48aa38aeb59e50c922615eea2161b72d8daf00"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/conserve/M_Conserve.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/conserve/M_Conserve.mtl",
+      "hash": "c7269b760368b5ab771c274adce8695dcde5ffd36d0fa0a61545c6580a700c5a"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/conserve/M_Conserve_FP.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/conserve/M_Conserve_FP.mtl",
+      "hash": "2ea5819090c307ece8ddf07f09ebdae00224211e1abd216bacb27700d2342b80"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/conserve_head/ConserveHead.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/conserve_head/ConserveHead.skin",
+      "hash": "33b041b2fc6257cb7df093abf4b79da6175372b8ce52b0b41a6d3894a0d0e078"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/phantom/conserve_phantom.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/phantom/conserve_phantom.skin",
+      "hash": "47e446bc717a30095c8c77ed8a3c112a92446a03dfbf577d56f79de7548ad366"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/M_VanitySetOg.mtl",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/M_VanitySetOg.mtl",
+      "hash": "470ffe844a028b9003204c1ed61dafa9cd1a92e4545987f6e0a2f9fe1e6a9245"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_jacketvanity.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_jacketvanity.skin",
+      "hash": "b63727ed44f59818f7be89ca036f969622384f0f5674ecc65218a5a0f2530b91"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_sneakers.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_sneakers.skin",
+      "hash": "a130384914f6ae8c826c7bf1edd44df83832cd42c849b84f934e2d3534f1885a"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_vanity.skin",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/set_og_vanity.skin",
+      "hash": "a89939a91ab03eb44f68bc1c23dddde7dffb647c80ac7be29a2dedad7ab6c2f9"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_ddna.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_ddna.dds",
+      "hash": "4a8983b7fac8804315dd37a6408ade0af182941738ddf66a5543661a1bd04691"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_diff.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_diff.dds",
+      "hash": "e97533daac7110504e5067a4726c3c6a698093df9a36ffc075163b5c8a293387"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_spec.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_head_spec.dds",
+      "hash": "8b91e51f2d889530772fe64aa19a73b2b17a97d3d8ee5f1d94106ef7e44cca47"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_ddna.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_ddna.dds",
+      "hash": "ec48aff5b08c0e21f78d83575487ba8417fb6d815f238d86605ca7f161c67c92"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_diff.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_diff.dds",
+      "hash": "88242fe626efa3c252b2c42bc57101acb93542aaf3c889a4f692eda33da70218"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_spec.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Pants_spec.dds",
+      "hash": "59ee2138afc5ac4ac0d48dccad6bfea01b0241beae6093b9e69dab85de24b640"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Torso_ddna.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/VanitySet_Torso_ddna.dds",
+      "hash": "dcb4dff249834558c5dfff9c39459574bc4b3fd06bda4a5265862623d108f394"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_torso_diff.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_torso_diff.dds",
+      "hash": "d0b73c8f6f5cd11e52c43b267d3aa144064e422d740b6c19c80a614195a0f482"
+    },
+    {
+      "path": "DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_torso_spec.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Objects/zhg_objects/characters/sets/VanityOgSet/txt/vanityset_torso_spec.dds",
+      "hash": "5bc676dcd5411bb3827bdad35151dea87a0f3cad721581611d90aaad5da665f9"
+    },
+    {
+      "path": "DATA/Textures/zhg_textures/Color_fill/zombie_ghost_cch.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Textures/zhg_textures/Color_fill/zombie_ghost_cch.dds",
+      "hash": "f1a443b182b7fd030758ba3919ad17f94f8c49176e941f968bd8c7358f13b0b6"
+    },
+    {
+      "path": "DATA/Textures/zhg_textures/Color_fill/zombie_gray_cch.dds",
+      "url": "http://152.53.38.73/1.4.1/DATA/Textures/zhg_textures/Color_fill/zombie_gray_cch.dds",
+      "hash": "5b6a673f1f0434432def21c48cc2465982d34e96a9ec8825e85e0a9e83d16066"
+    },
+    {
+      "path": "engine/engine.pak",
+      "url": "http://152.53.38.73/1.4.1/engine/engine.pak",
+      "hash": "fc8b28e5d7db39f9246c3c7995ea47b686113e511b9b95009bfe86c7e9d8276f"
+    },
+    {
+      "path": "engine/shaders.pak",
+      "url": "http://152.53.38.73/1.4.1/engine/shaders.pak",
+      "hash": "21c5c2938f64c335589f74d1e7c94df224ea8eb9e0757b179962311860acaa06"
+    }
+  ]
+}

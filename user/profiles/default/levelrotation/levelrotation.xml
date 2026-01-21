@@ -1,0 +1,5 @@
+<levelrotation name="IA">
+    <level name="Multiplayer/Purgatorium_Esc" gamerules="InstantAction"/>
+    <level name="Multiplayer/Purgatorium_Esc_Cw" gamerules="InstantAction"/>
+    <level name="Multiplayer/Purgatorium_Esc_Reverse" gamerules="InstantAction"/>
+</levelrotation>
